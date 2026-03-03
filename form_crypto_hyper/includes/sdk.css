@@ -1,0 +1,2860 @@
+/* mixin vendorPrefixed */
+
+/* mixin demodeBorder */
+
+.formi-form-signup,
+.formi-form-signup-3-steps,
+.formi-form-optin,
+.formi-form-contact-us,
+.formi-form-contact-request-message {
+    position: relative;
+}
+
+.formi-form-signup,
+.formi-form-signup *,
+.formi-form-signup-3-steps,
+.formi-form-signup-3-steps *,
+.formi-form-optin,
+.formi-form-optin *,
+.formi-form-contact-us,
+.formi-form-contact-us *,
+.formi-form-contact-request-message,
+.formi-form-contact-request-message * {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-indent: 0;
+    text-align: left;
+}
+
+.formi-form-signup .formi-input-holder,
+.formi-form-signup-3-steps .formi-input-holder,
+.formi-form-optin .formi-input-holder,
+.formi-form-contact-us .formi-input-holder,
+.formi-form-contact-request-message .formi-input-holder {
+    margin-bottom: 10px;
+}
+
+.formi-form-signup .formi-input-group,
+.formi-form-signup-3-steps .formi-input-group,
+.formi-form-optin .formi-input-group,
+.formi-form-contact-us .formi-input-group,
+.formi-form-contact-request-message .formi-input-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.formi-form-signup .formi-input-group .formi-input-area-code,
+.formi-form-signup-3-steps .formi-input-group .formi-input-area-code,
+.formi-form-optin .formi-input-group .formi-input-area-code,
+.formi-form-contact-us .formi-input-group .formi-input-area-code,
+.formi-form-contact-request-message .formi-input-group .formi-input-area-code {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.formi-form-signup .formi-input,
+.formi-form-signup-3-steps .formi-input,
+.formi-form-optin .formi-input,
+.formi-form-contact-us .formi-input,
+.formi-form-contact-request-message .formi-input {
+    -webkit-appearance: none;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 0;
+    background-color: #fff;
+    display: block;
+    width: 100%;
+}
+
+.formi-form-signup .formi-input[disabled],
+.formi-form-signup-3-steps .formi-input[disabled],
+.formi-form-optin .formi-input[disabled],
+.formi-form-contact-us .formi-input[disabled],
+.formi-form-contact-request-message .formi-input[disabled] {
+    cursor: not-allowed;
+}
+
+.formi-form-signup .formi-input.formi-invalid,
+.formi-form-signup-3-steps .formi-input.formi-invalid,
+.formi-form-optin .formi-input.formi-invalid,
+.formi-form-contact-us .formi-input.formi-invalid,
+.formi-form-contact-request-message .formi-input.formi-invalid {
+    border-color: #F44336;
+}
+
+.formi-form-signup .formi-input-area-code-flags,
+.formi-form-signup-3-steps .formi-input-area-code-flags,
+.formi-form-optin .formi-input-area-code-flags,
+.formi-form-contact-us .formi-input-area-code-flags,
+.formi-form-contact-request-message .formi-input-area-code-flags {
+    display: none !important;
+}
+
+.formi-form-signup .formi-input-phone,
+.formi-form-signup-3-steps .formi-input-phone,
+.formi-form-optin .formi-input-phone,
+.formi-form-contact-us .formi-input-phone,
+.formi-form-contact-request-message .formi-input-phone {
+    border-left: none !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.formi-form-signup .formi-checkbox,
+.formi-form-signup-3-steps .formi-checkbox,
+.formi-form-optin .formi-checkbox,
+.formi-form-contact-us .formi-checkbox,
+.formi-form-contact-request-message .formi-checkbox {
+    margin: 0;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.formi-form-signup .formi-checkbox-label-agree-terms,
+.formi-form-signup-3-steps .formi-checkbox-label-agree-terms,
+.formi-form-optin .formi-checkbox-label-agree-terms,
+.formi-form-contact-us .formi-checkbox-label-agree-terms,
+.formi-form-contact-request-message .formi-checkbox-label-agree-terms {
+    font-weight: normal;
+}
+
+.formi-form-signup .formi-input-holder-checkbox-agree-terms.formi-invalid .formi-checkbox-label-agree-terms,
+.formi-form-signup-3-steps .formi-input-holder-checkbox-agree-terms.formi-invalid .formi-checkbox-label-agree-terms,
+.formi-form-optin .formi-input-holder-checkbox-agree-terms.formi-invalid .formi-checkbox-label-agree-terms,
+.formi-form-contact-us .formi-input-holder-checkbox-agree-terms.formi-invalid .formi-checkbox-label-agree-terms,
+.formi-form-contact-request-message .formi-input-holder-checkbox-agree-terms.formi-invalid .formi-checkbox-label-agree-terms {
+    color: #F44336;
+}
+
+.formi-form-signup .formi-select,
+.formi-form-signup-3-steps .formi-select,
+.formi-form-optin .formi-select,
+.formi-form-contact-us .formi-select,
+.formi-form-contact-request-message .formi-select {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 0;
+    display: block;
+    width: 100%;
+    background: #fff;
+}
+
+.formi-form-signup .formi-select[disabled],
+.formi-form-signup-3-steps .formi-select[disabled],
+.formi-form-optin .formi-select[disabled],
+.formi-form-contact-us .formi-select[disabled],
+.formi-form-contact-request-message .formi-select[disabled] {
+    cursor: not-allowed;
+}
+
+.formi-form-signup .formi-select.formi-invalid,
+.formi-form-signup-3-steps .formi-select.formi-invalid,
+.formi-form-optin .formi-select.formi-invalid,
+.formi-form-contact-us .formi-select.formi-invalid,
+.formi-form-contact-request-message .formi-select.formi-invalid {
+    border-color: #F44336;
+}
+
+.formi-form-signup .formi-textarea,
+.formi-form-signup-3-steps .formi-textarea,
+.formi-form-optin .formi-textarea,
+.formi-form-contact-us .formi-textarea,
+.formi-form-contact-request-message .formi-textarea {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 0;
+    resize: vertical;
+    display: block;
+    width: 100%;
+    height: 160px;
+}
+
+.formi-form-signup .formi-textarea[disabled],
+.formi-form-signup-3-steps .formi-textarea[disabled],
+.formi-form-optin .formi-textarea[disabled],
+.formi-form-contact-us .formi-textarea[disabled],
+.formi-form-contact-request-message .formi-textarea[disabled] {
+    cursor: not-allowed;
+}
+
+.formi-form-signup .formi-textarea.formi-invalid,
+.formi-form-signup-3-steps .formi-textarea.formi-invalid,
+.formi-form-optin .formi-textarea.formi-invalid,
+.formi-form-contact-us .formi-textarea.formi-invalid,
+.formi-form-contact-request-message .formi-textarea.formi-invalid {
+    border-color: #F44336;
+}
+
+.formi-form-signup .formi-input-message-error,
+.formi-form-signup-3-steps .formi-input-message-error,
+.formi-form-optin .formi-input-message-error,
+.formi-form-contact-us .formi-input-message-error,
+.formi-form-contact-request-message .formi-input-message-error {
+    color: #F44336;
+    text-align: right;
+}
+
+.formi-form-signup .formi-input-message-error-verbose .formi-single-message,
+.formi-form-signup-3-steps .formi-input-message-error-verbose .formi-single-message,
+.formi-form-optin .formi-input-message-error-verbose .formi-single-message,
+.formi-form-contact-us .formi-input-message-error-verbose .formi-single-message,
+.formi-form-contact-request-message .formi-input-message-error-verbose .formi-single-message {
+    text-align: right;
+}
+
+.formi-form-signup .formi-input-message-error-verbose .formi-single-message.formi-untouched,
+.formi-form-signup-3-steps .formi-input-message-error-verbose .formi-single-message.formi-untouched,
+.formi-form-optin .formi-input-message-error-verbose .formi-single-message.formi-untouched,
+.formi-form-contact-us .formi-input-message-error-verbose .formi-single-message.formi-untouched,
+.formi-form-contact-request-message .formi-input-message-error-verbose .formi-single-message.formi-untouched {
+    color: black;
+}
+
+.formi-form-signup .formi-input-message-error-verbose .formi-single-message.formi-valid,
+.formi-form-signup-3-steps .formi-input-message-error-verbose .formi-single-message.formi-valid,
+.formi-form-optin .formi-input-message-error-verbose .formi-single-message.formi-valid,
+.formi-form-contact-us .formi-input-message-error-verbose .formi-single-message.formi-valid,
+.formi-form-contact-request-message .formi-input-message-error-verbose .formi-single-message.formi-valid {
+    color: #66bb6a;
+}
+
+.formi-form-signup .formi-input-message-error-verbose .formi-single-message.formi-invalid,
+.formi-form-signup-3-steps .formi-input-message-error-verbose .formi-single-message.formi-invalid,
+.formi-form-optin .formi-input-message-error-verbose .formi-single-message.formi-invalid,
+.formi-form-contact-us .formi-input-message-error-verbose .formi-single-message.formi-invalid,
+.formi-form-contact-request-message .formi-input-message-error-verbose .formi-single-message.formi-invalid {
+    color: #F44336;
+}
+
+.formi-form-signup .formi-btn-go-to-step-holder,
+.formi-form-signup .formi-btn-submit-holder,
+.formi-form-signup-3-steps .formi-btn-go-to-step-holder,
+.formi-form-signup-3-steps .formi-btn-submit-holder,
+.formi-form-optin .formi-btn-go-to-step-holder,
+.formi-form-optin .formi-btn-submit-holder,
+.formi-form-contact-us .formi-btn-go-to-step-holder,
+.formi-form-contact-us .formi-btn-submit-holder,
+.formi-form-contact-request-message .formi-btn-go-to-step-holder,
+.formi-form-contact-request-message .formi-btn-submit-holder {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.formi-form-signup .formi-btn-go-to-step,
+.formi-form-signup .formi-btn-generate-password,
+.formi-form-signup .formi-btn-submit,
+.formi-form-signup-3-steps .formi-btn-go-to-step,
+.formi-form-signup-3-steps .formi-btn-generate-password,
+.formi-form-signup-3-steps .formi-btn-submit,
+.formi-form-optin .formi-btn-go-to-step,
+.formi-form-optin .formi-btn-generate-password,
+.formi-form-optin .formi-btn-submit,
+.formi-form-contact-us .formi-btn-go-to-step,
+.formi-form-contact-us .formi-btn-generate-password,
+.formi-form-contact-us .formi-btn-submit,
+.formi-form-contact-request-message .formi-btn-go-to-step,
+.formi-form-contact-request-message .formi-btn-generate-password,
+.formi-form-contact-request-message .formi-btn-submit {
+    font-size: 14px;
+    display: inline-block;
+    min-width: 88px;
+    padding: 8px 16px;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0;
+    border-radius: 2px;
+    background: #337ab7;
+    color: #fff;
+    transition: all 0.2s linear;
+}
+
+.formi-form-signup .formi-btn-go-to-step:hover,
+.formi-form-signup .formi-btn-generate-password:hover,
+.formi-form-signup .formi-btn-submit:hover,
+.formi-form-signup-3-steps .formi-btn-go-to-step:hover,
+.formi-form-signup-3-steps .formi-btn-generate-password:hover,
+.formi-form-signup-3-steps .formi-btn-submit:hover,
+.formi-form-optin .formi-btn-go-to-step:hover,
+.formi-form-optin .formi-btn-generate-password:hover,
+.formi-form-optin .formi-btn-submit:hover,
+.formi-form-contact-us .formi-btn-go-to-step:hover,
+.formi-form-contact-us .formi-btn-generate-password:hover,
+.formi-form-contact-us .formi-btn-submit:hover,
+.formi-form-contact-request-message .formi-btn-go-to-step:hover,
+.formi-form-contact-request-message .formi-btn-generate-password:hover,
+.formi-form-contact-request-message .formi-btn-submit:hover {
+    background: #265a87;
+}
+
+.formi-form-signup .formi-btn-go-to-step[disabled],
+.formi-form-signup .formi-btn-generate-password[disabled],
+.formi-form-signup .formi-btn-submit[disabled],
+.formi-form-signup-3-steps .formi-btn-go-to-step[disabled],
+.formi-form-signup-3-steps .formi-btn-generate-password[disabled],
+.formi-form-signup-3-steps .formi-btn-submit[disabled],
+.formi-form-optin .formi-btn-go-to-step[disabled],
+.formi-form-optin .formi-btn-generate-password[disabled],
+.formi-form-optin .formi-btn-submit[disabled],
+.formi-form-contact-us .formi-btn-go-to-step[disabled],
+.formi-form-contact-us .formi-btn-generate-password[disabled],
+.formi-form-contact-us .formi-btn-submit[disabled],
+.formi-form-contact-request-message .formi-btn-go-to-step[disabled],
+.formi-form-contact-request-message .formi-btn-generate-password[disabled],
+.formi-form-contact-request-message .formi-btn-submit[disabled] {
+    opacity: 0.8;
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.formi-form-signup .formi-btn-generate-password,
+.formi-form-signup-3-steps .formi-btn-generate-password,
+.formi-form-optin .formi-btn-generate-password,
+.formi-form-contact-us .formi-btn-generate-password,
+.formi-form-contact-request-message .formi-btn-generate-password {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.formi-form-signup .formi-form-message-error,
+.formi-form-signup-3-steps .formi-form-message-error,
+.formi-form-optin .formi-form-message-error,
+.formi-form-contact-us .formi-form-message-error,
+.formi-form-contact-request-message .formi-form-message-error {
+    text-align: center;
+    font-weight: bold;
+    color: #F44336;
+}
+
+.formi-form-signup .formi-form-message-success,
+.formi-form-signup-3-steps .formi-form-message-success,
+.formi-form-optin .formi-form-message-success,
+.formi-form-contact-us .formi-form-message-success,
+.formi-form-contact-request-message .formi-form-message-success {
+    text-align: center;
+    font-weight: bold;
+    color: #66bb6a;
+}
+
+.formi-form-signup .formi-form-loader,
+.formi-form-signup-3-steps .formi-form-loader,
+.formi-form-optin .formi-form-loader,
+.formi-form-contact-us .formi-form-loader,
+.formi-form-contact-request-message .formi-form-loader {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.formi-form-signup .formi-steps-holder .formi-step,
+.formi-form-signup-3-steps .formi-steps-holder .formi-step,
+.formi-form-optin .formi-steps-holder .formi-step,
+.formi-form-contact-us .formi-steps-holder .formi-step,
+.formi-form-contact-request-message .formi-steps-holder .formi-step {
+    display: none;
+}
+
+.formi-form-signup .formi-steps-holder .formi-step.formi-active,
+.formi-form-signup-3-steps .formi-steps-holder .formi-step.formi-active,
+.formi-form-optin .formi-steps-holder .formi-step.formi-active,
+.formi-form-contact-us .formi-steps-holder .formi-step.formi-active,
+.formi-form-contact-request-message .formi-steps-holder .formi-step.formi-active {
+    display: block;
+}
+
+.formi-form-signup .formi-steps-navigation,
+.formi-form-signup-3-steps .formi-steps-navigation,
+.formi-form-optin .formi-steps-navigation,
+.formi-form-contact-us .formi-steps-navigation,
+.formi-form-contact-request-message .formi-steps-navigation {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formi-form-signup .formi-steps-navigation .formi-steps-navigation-item,
+.formi-form-signup-3-steps .formi-steps-navigation .formi-steps-navigation-item,
+.formi-form-optin .formi-steps-navigation .formi-steps-navigation-item,
+.formi-form-contact-us .formi-steps-navigation .formi-steps-navigation-item,
+.formi-form-contact-request-message .formi-steps-navigation .formi-steps-navigation-item {
+    display: inline-block;
+    margin: 0 5px;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #c7ddef;
+}
+
+.formi-form-signup .formi-steps-navigation .formi-steps-navigation-item.formi-active,
+.formi-form-signup-3-steps .formi-steps-navigation .formi-steps-navigation-item.formi-active,
+.formi-form-optin .formi-steps-navigation .formi-steps-navigation-item.formi-active,
+.formi-form-contact-us .formi-steps-navigation .formi-steps-navigation-item.formi-active,
+.formi-form-contact-request-message .formi-steps-navigation .formi-steps-navigation-item.formi-active {
+    background-color: #337ab7;
+}
+
+.formi-form-signup .formi-input-holder-password .formi-input-group,
+.formi-form-signup .formi-input-holder-password-confirm .formi-input-group,
+.formi-form-signup-3-steps .formi-input-holder-password .formi-input-group,
+.formi-form-signup-3-steps .formi-input-holder-password-confirm .formi-input-group,
+.formi-form-optin .formi-input-holder-password .formi-input-group,
+.formi-form-optin .formi-input-holder-password-confirm .formi-input-group,
+.formi-form-contact-us .formi-input-holder-password .formi-input-group,
+.formi-form-contact-us .formi-input-holder-password-confirm .formi-input-group,
+.formi-form-contact-request-message .formi-input-holder-password .formi-input-group,
+.formi-form-contact-request-message .formi-input-holder-password-confirm .formi-input-group {
+    position: relative;
+}
+
+.formi-form-signup .formi-btn-generate-password-holder,
+.formi-form-signup-3-steps .formi-btn-generate-password-holder,
+.formi-form-optin .formi-btn-generate-password-holder,
+.formi-form-contact-us .formi-btn-generate-password-holder,
+.formi-form-contact-request-message .formi-btn-generate-password-holder {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.formi-form-signup .formi-btn-generate-password-holder .formi-input-group,
+.formi-form-signup-3-steps .formi-btn-generate-password-holder .formi-input-group,
+.formi-form-optin .formi-btn-generate-password-holder .formi-input-group,
+.formi-form-contact-us .formi-btn-generate-password-holder .formi-input-group,
+.formi-form-contact-request-message .formi-btn-generate-password-holder .formi-input-group {
+    flex-grow: 1;
+}
+
+.formi-form-signup .formi-btn-generate-password-holder .formi-input-group .formi-input,
+.formi-form-signup-3-steps .formi-btn-generate-password-holder .formi-input-group .formi-input,
+.formi-form-optin .formi-btn-generate-password-holder .formi-input-group .formi-input,
+.formi-form-contact-us .formi-btn-generate-password-holder .formi-input-group .formi-input,
+.formi-form-contact-request-message .formi-btn-generate-password-holder .formi-input-group .formi-input {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.formi-password-eye-icon {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 18px auto;
+    background-image: url("/assets/img/eye-1a.png");
+}
+
+.formi-password-eye-icon.formi-visible {
+    background-image: url("/assets/img/eye-1.png");
+}
+
+.formi-table-brokers-holder {
+    min-height: 100px;
+    position: relative;
+}
+
+.formi-table-brokers-holder .formi-table-brokers {
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+.formi-table-brokers-holder .formi-table-brokers td,
+.formi-table-brokers-holder .formi-table-brokers th {
+    border-bottom: 1px solid #ccc;
+    padding: 6px 12px;
+    height: 68px;
+}
+
+.formi-table-brokers-holder .formi-table-brokers tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.formi-table-brokers-holder .formi-table-broker-logo {
+    width: auto;
+    height: auto;
+    max-width: 170px;
+    max-height: 60px;
+}
+
+.formi-table-brokers-holder .formi-table-broker-btn-open-account {
+    font-size: 14px;
+    display: inline-block;
+    text-decoration: none;
+    min-width: 88px;
+    padding: 8px 16px;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0;
+    border-radius: 2px;
+    background: #337ab7;
+    color: #fff;
+    transition: all 0.2s linear;
+}
+
+.formi-table-brokers-holder .formi-table-broker-btn-open-account:hover {
+    background: #265a87;
+}
+
+.formi-table-brokers-holder .formi-table-broker-btn-open-account[disabled] {
+    opacity: 0.8;
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.formi-tooltip {
+    z-index: 100;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 3px;
+    color: #fff;
+    padding: 5px;
+    font-size: 12px;
+    margin-top: -12px;
+}
+
+.formi-tooltip:after,
+.formi-tooltip:before {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.formi-tooltip:after {
+    border-color: rgba(65, 213, 28, 0);
+    border-top-color: rgba(0, 0, 0, 0.8);
+    border-width: 10px;
+    margin-left: -10px;
+}
+
+.formi-tooltip:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-top-color: transparent;
+    border-width: 16px;
+    margin-left: -16px;
+}
+
+.formi-cookie-popup {
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-width: 100vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.formi-cookie-popup.formi-cookie-popup-light {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 0px 5px 10px #000;
+}
+
+.formi-cookie-popup .formi-cookie-popup-link-privacy-policy {
+    color: #337ab7;
+    cursor: pointer;
+}
+
+.formi-cookie-popup .formi-cookie-popup-link-privacy-policy:active,
+.formi-cookie-popup .formi-cookie-popup-link-privacy-policy:visited,
+.formi-cookie-popup .formi-cookie-popup-link-privacy-policy:focus {
+    color: #337ab7;
+}
+
+.formi-cookie-popup .formi-cookie-popup-text-holder {
+    margin-right: 15px;
+}
+
+.formi-cookie-popup .formi-cookie-popup-btn-accept {
+    font-size: 14px;
+    display: inline-block;
+    text-decoration: none;
+    min-width: 88px;
+    padding: 8px 16px;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0;
+    border-radius: 2px;
+    background: #337ab7;
+    color: #fff;
+    transition: all 0.2s linear;
+}
+
+.formi-cookie-popup .formi-cookie-popup-btn-accept:hover {
+    background: #265a87;
+}
+
+.formi-modal-holder {
+    z-index: 200;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    overflow-y: auto;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.formi-modal-holder.formi-hidden {
+    display: none;
+}
+
+.formi-modal-holder .formi-modal {
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    width: 650px;
+    margin-bottom: 15px;
+    max-width: calc(100% - 30px);
+    transform: translateX(-50%);
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+}
+
+.formi-modal-holder .formi-modal-title {
+    padding: 15px;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+}
+
+.formi-modal-holder .formi-modal-btn-close {
+    background: none;
+    border: none;
+    font-size: 26px;
+    position: absolute;
+    line-height: 1;
+    right: 10px;
+    width: 26px;
+    height: 26px;
+    top: 15px;
+}
+
+.formi-modal-holder .formi-modal-btn-close:hover {
+    color: #337ab7;
+}
+
+.formi-modal-holder .formi-modal-body {
+    padding: 15px;
+    word-wrap: break-word;
+}
+
+.formi-modal-holder .formi-modal-agreement {
+    width: 1000px;
+}
+
+.formi-modal-body-overflow {
+    overflow: hidden;
+}
+
+.formi-loader-holder {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 50;
+    display: none;
+}
+
+.formi-loader-holder.show {
+    display: block;
+}
+
+.formi-loader-holder.static {
+    position: static;
+    left: auto;
+    text-align: center;
+    padding: 15px;
+    right: auto;
+}
+
+.formi-loader-holder.static .formi-lds-dual-ring {
+    position: static;
+    left: auto;
+    right: auto;
+    transform: translate(0%, 0%);
+}
+
+.formi-loader-holder .formi-loader-text-holder {
+    text-align: center;
+    max-width: 80%;
+    max-height: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+.formi-loader-holder .formi-loader-text-holder .formi-lds-dual-ring {
+    position: static;
+    left: auto;
+    right: auto;
+    transform: translate(0%, 0%);
+}
+
+.formi-loader-holder .formi-lds-dual-ring {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.formi-loader-holder .formi-lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 46px;
+    height: 46px;
+    margin: 1px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: formi-lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes formi-lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.formi-modal-block-website {
+    z-index: 2000;
+    background: black;
+}
+
+.formi-modal-block-website .formi-text-block-website {
+    text-align: center;
+    font-size: 18px;
+    color: #F44336;
+}
+
+.formi-modal-contact-us .formi-text-top {
+    margin-bottom: 40px;
+}
+
+.formi-modal-basic-message {
+    text-align: center;
+}
+
+.formi-modal-basic-message .formi-confirm-button-holder {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.formi-modal-basic-message .formi-confirm-button {
+    font-size: 14px;
+    display: inline-block;
+    min-width: 88px;
+    padding: 8px 16px;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0;
+    border-radius: 2px;
+    background: #337ab7;
+    color: #fff;
+    transition: all 0.2s linear;
+}
+
+.formi-modal-basic-message .formi-confirm-button:hover {
+    background: #265a87;
+}
+
+.formi-modal-basic-message .formi-confirm-button[disabled] {
+    opacity: 0.8;
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.formi-hidden-1 {
+    padding: 0px !important;
+    width: 0px !important;
+    height: 0px !important;
+    opacity: 0 !important;
+}
+
+.formi-contact-request-messages-holder {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 150px;
+    background-color: #F5F5F5;
+    /*border: $borderValue;*/
+    /* .formi-inner-panel */
+}
+
+.formi-contact-request-messages-holder .formi-logo-panel {
+    display: block;
+    margin: 0px;
+    margin-bottom: 120px;
+    padding: 0px;
+    text-align: center;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+}
+
+.formi-contact-request-messages-holder .formi-logo-panel .formi-logo-img {
+    display: inline-block;
+    max-height: 90px;
+    max-width: 300px;
+    width: auto;
+    height: auto;
+}
+
+.formi-contact-request-messages-holder .formi-inner-panel {
+    display: block;
+    margin: 0px auto;
+    padding: 0px;
+    max-width: 840px;
+    background-color: white;
+    box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    /* .formi-subject */
+    /* .formi-desc */
+    /* .formi-holder-prev-messages */
+    /* .formi-holder-new-message */
+}
+
+.formi-contact-request-messages-holder .formi-inner-panel .formi-subject {
+    display: block;
+    margin: 0px;
+    padding: 10px 40px 25px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    /*border: $borderValue;*/
+}
+
+.formi-contact-request-messages-holder .formi-inner-panel .formi-desc {
+    display: block;
+    margin: 0px;
+    margin-bottom: 40px;
+    padding: 25px 40px;
+    font-size: 16px;
+    background-color: #EBEFF5;
+}
+
+.formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    /*border: $borderValue;*/
+    /* .formi-message-box */
+}
+
+.formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box {
+    display: block;
+    position: relative;
+    margin: 0px;
+    margin-bottom: 30px;
+    padding: 15px 20px;
+    max-width: 440px;
+    word-wrap: break-word;
+    border-radius: 5px;
+    /* .formi-user-panel */
+    /* .formi-message-box.style1 */
+    /* .formi-message-box.style2 */
+}
+
+.formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box .formi-user-panel {
+    display: block;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 5px;
+    min-width: 200px;
+    background-repeat: no-repeat;
+    /*border: $borderValue;*/
+    /* .formi-user-panel:after */
+}
+
+.formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box .formi-user-panel .formi-user-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box .formi-user-panel .formi-date {
+    font-size: 12px;
+    color: #BCC1D3;
+}
+
+.formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box .formi-user-panel:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 15px;
+    margin: 0px;
+    padding: 0px;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% auto;
+    /*border: $borderValue;*/
+}
+
+.formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box.style1 {
+    margin-right: 40px;
+    color: white;
+    float: right;
+    background-color: #3476D1;
+}
+
+.formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box.style1 .formi-user-panel {
+    top: 0px;
+    right: 100%;
+    padding-right: 65px;
+    text-align: right;
+    background-image: url("/assets/img/avatar2.png");
+    background-position: calc(100% - 10px) 0px;
+}
+
+.formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box.style1 .formi-user-panel:after {
+    right: -9px;
+    background-image: url("/assets/img/dot3.png");
+}
+
+.formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box.style2 {
+    margin-left: 40px;
+    float: left;
+    background-color: #EBEFF5;
+}
+
+.formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box.style2 .formi-user-panel {
+    top: 0px;
+    left: 100%;
+    padding-left: 65px;
+    text-align: left;
+    background-image: url("/assets/img/avatar2.png");
+    background-position: 10px 0px;
+}
+
+.formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box.style2 .formi-user-panel:after {
+    left: -9px;
+    background-image: url("/assets/img/dot2.png");
+}
+
+.formi-contact-request-messages-holder .formi-inner-panel .formi-holder-new-message {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    /*border: $borderValue;*/
+    /* form.formi-form-contact-request-message */
+}
+
+.formi-contact-request-messages-holder .formi-inner-panel .formi-holder-new-message form.formi-form-contact-request-message {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    /*border: $borderValue;*/
+    /* .formi-message-input-holders */
+    /* .formi-btn-submit-holder */
+}
+
+.formi-contact-request-messages-holder .formi-inner-panel .formi-holder-new-message form.formi-form-contact-request-message .formi-message-input-holder {
+    margin: 0px;
+    margin-bottom: 0px;
+    width: calc(65%);
+    height: 130px;
+    float: left;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px 1px 0px 0px;
+    /* textarea[name="message"] */
+}
+
+.formi-contact-request-messages-holder .formi-inner-panel .formi-holder-new-message form.formi-form-contact-request-message .formi-message-input-holder textarea[name="message"] {
+    padding: 25px;
+    height: 100%;
+    max-height: 100%;
+    font-size: 16px;
+    resize: none;
+    background-color: transparent;
+    border-style: none;
+    /*border: $borderValue;*/
+}
+
+.formi-contact-request-messages-holder .formi-inner-panel .formi-holder-new-message form.formi-form-contact-request-message .formi-btn-submit-holder {
+    display: block;
+    position: relative;
+    margin-bottom: 0px;
+    width: calc(35%);
+    height: 130px;
+    float: right;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px 0px 0px 0px;
+    /* .formi-btn-submit */
+}
+
+.formi-contact-request-messages-holder .formi-inner-panel .formi-holder-new-message form.formi-form-contact-request-message .formi-btn-submit-holder .formi-btn-submit {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    width: 140px;
+    height: 45px;
+    font-size: 16px;
+    text-align: left;
+    line-height: 45px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #3476D1;
+    background-image: url("/assets/img/arrow1.png");
+    background-repeat: no-repeat;
+    background-position: 105px 50%;
+    border-radius: 5px;
+}
+
+.formi-contact-request-messages-holder .formi-inner-panel .formi-holder-new-message .formi-input-message-error {
+    margin-top: -25px;
+    margin-right: 20px;
+}
+
+/* .formi-contact-request-messages-holder */
+
+@media (max-width: 991px) {
+    .formi-contact-request-messages-holder {
+        padding-bottom: 100px;
+        /* .formi-logo-panel */
+        /* .formi-inner-panel */
+    }
+    .formi-contact-request-messages-holder .formi-logo-panel {
+        margin-bottom: 108px;
+    }
+    .formi-contact-request-messages-holder .formi-logo-panel .formi-logo-img {
+        max-height: 80px;
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel {
+        /*margin-top: 108px;*/
+        max-width: 756px;
+        /* .formi-holder-prev-messages */
+        /* .formi-holder-new-message */
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-subject {
+        padding: 9px 36px 22px 36px;
+        font-size: 16px;
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-desc {
+        margin-bottom: 36px;
+        padding: 22px 36px;
+        font-size: 14px;
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages {
+        /* .formi-message-box */
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box {
+        margin-bottom: 27px;
+        padding: 13px 18px;
+        /* .formi-user-panel */
+        /* .formi-message-box.style1 */
+        /* .formi-message-box.style2 */
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box .formi-user-panel {
+        min-width: 180px;
+        /* .formi-user-panel:after */
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box .formi-user-panel .formi-user-name {
+        font-size: 14px;
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box .formi-user-panel .formi-date {
+        font-size: 11px;
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box .formi-user-panel:after {
+        top: 13px;
+        margin: 0px;
+        padding: 0px;
+        width: 14px;
+        height: 14px;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        /*border: $borderValue;*/
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box.style1 {
+        margin-right: 36px;
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box.style1 .formi-user-panel {
+        padding-right: 60px;
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box.style1 .formi-user-panel:after {
+        right: -8px;
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box.style2 {
+        margin-left: 36px;
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box.style2 .formi-user-panel {
+        padding-left: 60px;
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box.style2 .formi-user-panel:after {
+        left: -8px;
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-new-message {
+        /* form.formi-form-contact-request-message */
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-new-message form.formi-form-contact-request-message {
+        /* .formi-message-input-holder */
+        /* .formi-btn-submit-holder */
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-new-message form.formi-form-contact-request-message .formi-message-input-holder {
+        height: 115px;
+        /* textarea[name="message"] */
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-new-message form.formi-form-contact-request-message .formi-message-input-holder textarea[name="message"] {
+        padding: 22px;
+        font-size: 14px;
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-new-message form.formi-form-contact-request-message .formi-btn-submit-holder {
+        height: 115px;
+        /* .formi-btn-submit */
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-new-message form.formi-form-contact-request-message .formi-btn-submit-holder .formi-btn-submit {
+        width: 125px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 40px;
+        background-position: 95px 50%;
+    }
+    /* .formi-contact-request-messages-holder */
+}
+
+/* media 991 - 767px */
+
+@media (max-width: 767px) {
+    .formi-contact-request-messages-holder {
+        padding-bottom: 30px;
+        /* .formi-logo-panel */
+        /* .formi-inner-panel */
+    }
+    .formi-contact-request-messages-holder .formi-logo-panel {
+        margin-bottom: 50px;
+    }
+    .formi-contact-request-messages-holder .formi-logo-panel .formi-logo-img {
+        max-height: 64px;
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel {
+        border-radius: 0px;
+        /* .formi-holder-prev-messages */
+        /* .formi-holder-new-message */
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-subject {
+        padding: 8px 10px 18px 10px;
+        font-size: 13px;
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-desc {
+        margin-bottom: 30px;
+        padding: 18px 10px;
+        font-size: 12px;
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages {
+        /* .formi-message-box */
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box {
+        margin-bottom: 25px;
+        padding: 10px 14px;
+        max-width: 230px;
+        font-size: 12px;
+        /* .formi-user-panel */
+        /* .formi-message-box.style1 */
+        /* .formi-message-box.style2 */
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box .formi-user-panel {
+        min-width: 120px;
+        background-size: 36px auto;
+        /* .formi-user-panel:after */
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box .formi-user-panel .formi-user-name {
+        font-size: 12px;
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box .formi-user-panel .formi-date {
+        font-size: 10px;
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box .formi-user-panel:after {
+        top: 10px;
+        width: 12px;
+        height: 12px;
+        /*border: $borderValue;*/
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box.style1 {
+        margin-right: 10px;
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box.style1 .formi-user-panel {
+        padding-top: 30px;
+        padding-right: 15px;
+        background-position: calc(100% - 5px) 0px;
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box.style1 .formi-user-panel:after {
+        right: -7px;
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box.style2 {
+        margin-left: 10px;
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box.style2 .formi-user-panel {
+        padding-top: 30px;
+        padding-left: 15px;
+        background-position: 5px 0px;
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-prev-messages .formi-message-box.style2 .formi-user-panel:after {
+        left: -7px;
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-new-message {
+        margin-top: 30px;
+        /* form.formi-form-contact-request-message */
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-new-message form.formi-form-contact-request-message {
+        /* .formi-message-input-holder */
+        /* .formi-btn-submit-holder */
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-new-message form.formi-form-contact-request-message .formi-message-input-holder {
+        height: 92px;
+        /* textarea[name="message"] */
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-new-message form.formi-form-contact-request-message .formi-message-input-holder textarea[name="message"] {
+        padding: 12px;
+        font-size: 12px;
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-new-message form.formi-form-contact-request-message .formi-btn-submit-holder {
+        height: 92px;
+        /* .formi-btn-submit */
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-new-message form.formi-form-contact-request-message .formi-btn-submit-holder .formi-btn-submit {
+        padding-left: 24px;
+        width: 100px;
+        height: 32px;
+        font-size: 12px;
+        line-height: 32px;
+        background-position: 76px 50%;
+        background-size: 12px auto;
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-new-message .formi-input-message-error {
+        margin-top: -20px;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+    .formi-contact-request-messages-holder .formi-inner-panel .formi-holder-new-message .formi-form-message-success {
+        font-size: 12px;
+    }
+    /* .formi-contact-request-messages-holder */
+}
+
+/* media 767px - 0px */
+
+.formi-modal-exit-popup .formi-modal {
+    /*border: $borderValue;*/
+    width: 800px;
+    background-color: transparent;
+}
+
+.formi-modal-exit-popup .formi-modal .formi-modal-btn-close {
+    top: -20px;
+    color: white;
+}
+
+.formi-modal-exit-popup .formi-modal .formi-modal-header .formi-modal-title {
+    border: none;
+}
+
+.formi-modal-exit-popup .formi-modal .formi-exit-popup-iframe-holder {
+    /*border: $borderValue;*/
+}
+
+.formi-modal-exit-popup .formi-modal .formi-exit-popup-iframe-holder .formi-exit-popup-iframe {
+    display: block;
+    width: 100%;
+    min-height: 90vh;
+    border: none;
+}
+
+.formi-input.formi-area-flags-holder {
+    position: relative;
+    white-space: nowrap;
+    width: auto;
+    border-right: none !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    /*border: $borderValue;*/
+    /* .formi-selected-area */
+    /* .formi-areas-dropdown */
+}
+
+.formi-invalid .formi-input.formi-area-flags-holder {
+    border-color: #F44336;
+}
+
+.formi-input.formi-area-flags-holder .formi-selected-area {
+    display: block;
+    position: relative;
+    padding-left: 3px;
+    padding-right: 18px;
+    cursor: pointer;
+    /*border: $borderValue;*/
+    /* .formi-flag-image */
+    /* .formi-phone-code */
+}
+
+.formi-input.formi-area-flags-holder .formi-selected-area .formi-flag-image {
+    display: inline-block;
+    margin-right: 5px;
+    width: 32px;
+    height: 24px;
+    vertical-align: middle;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+    background-image: url("/assets/img/flags32.png");
+    background-repeat: no-repeat;
+    /*border: $borderValue;*/
+}
+
+.formi-input.formi-area-flags-holder .formi-selected-area .formi-phone-code {
+    display: inline-block;
+    vertical-align: middle;
+    /*border: $borderValue;*/
+}
+
+.formi-input.formi-area-flags-holder .formi-selected-area::after {
+    display: block;
+    position: absolute;
+    content: '\25BC';
+    top: 50%;
+    transform: translateY(-50%);
+    right: 4px;
+    width: 10px;
+    height: 10px;
+    line-height: 1;
+    font-size: 10px;
+}
+
+.formi-input.formi-area-flags-holder .formi-selected-area.formi-opened::after {
+    content: '\25B2';
+}
+
+.formi-input.formi-area-flags-holder .formi-areas-dropdown {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: -1px;
+    width: 300px;
+    height: 200px;
+    overflow: auto;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity linear 0.3s;
+    background-color: white;
+    border: solid 1px grey;
+    /* .formi-flag-single-item */
+    /* .formi-areas-dropdown.opened */
+}
+
+.formi-input.formi-area-flags-holder .formi-areas-dropdown .formi-flag-single-item {
+    display: block;
+    cursor: pointer;
+    padding: 3px 0px;
+    padding-left: 3px;
+    /*border: $borderValue;*/
+    /* .formi-flag-image */
+    /* .formi-area-name */
+    /* .formi-area-code */
+}
+
+.formi-input.formi-area-flags-holder .formi-areas-dropdown .formi-flag-single-item .formi-flag-image {
+    display: inline-block;
+    margin-right: 5px;
+    width: 32px;
+    height: 24px;
+    vertical-align: middle;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+    background-image: url("/assets/img/flags32.png");
+    background-repeat: no-repeat;
+    /*border: $borderValue;*/
+}
+
+.formi-input.formi-area-flags-holder .formi-areas-dropdown .formi-flag-single-item .formi-area-name {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    /*border: $borderValue;*/
+}
+
+.formi-input.formi-area-flags-holder .formi-areas-dropdown .formi-flag-single-item .formi-area-code {
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.5);
+    vertical-align: middle;
+    /*border: $borderValue;*/
+}
+
+.formi-input.formi-area-flags-holder .formi-areas-dropdown .formi-flag-single-item:hover,
+.formi-input.formi-area-flags-holder .formi-areas-dropdown .formi-flag-single-item.formi-selected {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.formi-input.formi-area-flags-holder .formi-areas-dropdown.formi-opened {
+    z-index: 50;
+    opacity: 1;
+    visibility: visible;
+}
+
+/* .formi-area-flags-holder */
+
+/* ============ flags sprite ================ */
+
+.formi-flag-image.formi-flag-_African_Union {
+    background-position: 0 -36px;
+}
+
+.formi-flag-image.formi-flag-_Arab_League {
+    background-position: 0 -68px;
+}
+
+.formi-flag-image.formi-flag-_ASEAN {
+    background-position: 0 -100px;
+}
+
+.formi-flag-image.formi-flag-_CARICOM {
+    background-position: 0 -132px;
+}
+
+.formi-flag-image.formi-flag-_CIS {
+    background-position: 0 -164px;
+}
+
+.formi-flag-image.formi-flag-_Commonwealth {
+    background-position: 0 -196px;
+}
+
+.formi-flag-image.formi-flag-_England {
+    background-position: 0 -228px;
+}
+
+.formi-flag-image.formi-flag-_European_Union,
+.formi-flag-image.formi-flag-eu {
+    background-position: 0 -260px;
+}
+
+.formi-flag-image.formi-flag-_Islamic_Conference {
+    background-position: 0 -292px;
+}
+
+.formi-flag-image.formi-flag-_Kosovo {
+    background-position: 0 -324px;
+}
+
+.formi-flag-image.formi-flag-_NATO {
+    background-position: 0 -356px;
+}
+
+.formi-flag-image.formi-flag-_Northern_Cyprus {
+    background-position: 0 -388px;
+}
+
+.formi-flag-image.formi-flag-_Northern_Ireland {
+    background-position: 0 -420px;
+}
+
+.formi-flag-image.formi-flag-_Olimpic_Movement {
+    background-position: 0 -452px;
+}
+
+.formi-flag-image.formi-flag-_OPEC {
+    background-position: 0 -484px;
+}
+
+.formi-flag-image.formi-flag-_Red_Cross {
+    background-position: 0 -516px;
+}
+
+.formi-flag-image.formi-flag-_Scotland {
+    background-position: 0 -548px;
+}
+
+.formi-flag-image.formi-flag-_Somaliland {
+    background-position: 0 -580px;
+}
+
+.formi-flag-image.formi-flag-_Tibet {
+    background-position: 0 -612px;
+}
+
+.formi-flag-image.formi-flag-_United_Nations {
+    background-position: 0 -644px;
+}
+
+.formi-flag-image.formi-flag-_Wales {
+    background-position: 0 -676px;
+}
+
+.formi-flag-image.formi-flag-ad,
+.formi-flag-image.formi-flag-and {
+    background-position: 0 -708px;
+}
+
+.formi-flag-image.formi-flag-ae,
+.formi-flag-image.formi-flag-are {
+    background-position: 0 -740px;
+}
+
+.formi-flag-image.formi-flag-af,
+.formi-flag-image.formi-flag-afg {
+    background-position: 0 -772px;
+}
+
+.formi-flag-image.formi-flag-ag,
+.formi-flag-image.formi-flag-atg {
+    background-position: 0 -804px;
+}
+
+.formi-flag-image.formi-flag-ai,
+.formi-flag-image.formi-flag-aia {
+    background-position: 0 -836px;
+}
+
+.formi-flag-image.formi-flag-al,
+.formi-flag-image.formi-flag-alb {
+    background-position: 0 -868px;
+}
+
+.formi-flag-image.formi-flag-am,
+.formi-flag-image.formi-flag-arm {
+    background-position: 0 -900px;
+}
+
+.formi-flag-image.formi-flag-ao,
+.formi-flag-image.formi-flag-ago {
+    background-position: 0 -932px;
+}
+
+.formi-flag-image.formi-flag-aq,
+.formi-flag-image.formi-flag-ata {
+    background-position: 0 -964px;
+}
+
+.formi-flag-image.formi-flag-ar,
+.formi-flag-image.formi-flag-arg {
+    background-position: 0 -996px;
+}
+
+.formi-flag-image.formi-flag-as,
+.formi-flag-image.formi-flag-asm {
+    background-position: 0 -1028px;
+}
+
+.formi-flag-image.formi-flag-at,
+.formi-flag-image.formi-flag-aut {
+    background-position: 0 -1060px;
+}
+
+.formi-flag-image.formi-flag-au,
+.formi-flag-image.formi-flag-aus {
+    background-position: 0 -1092px;
+}
+
+.formi-flag-image.formi-flag-aw,
+.formi-flag-image.formi-flag-abw {
+    background-position: 0 -1124px;
+}
+
+.formi-flag-image.formi-flag-ax,
+.formi-flag-image.formi-flag-ala {
+    background-position: 0 -1156px;
+}
+
+.formi-flag-image.formi-flag-az,
+.formi-flag-image.formi-flag-aze {
+    background-position: 0 -1188px;
+}
+
+.formi-flag-image.formi-flag-ba,
+.formi-flag-image.formi-flag-bih {
+    background-position: 0 -1220px;
+}
+
+.formi-flag-image.formi-flag-bb,
+.formi-flag-image.formi-flag-brb {
+    background-position: 0 -1252px;
+}
+
+.formi-flag-image.formi-flag-bd,
+.formi-flag-image.formi-flag-bgd {
+    background-position: 0 -1284px;
+}
+
+.formi-flag-image.formi-flag-be,
+.formi-flag-image.formi-flag-bel {
+    background-position: 0 -1316px;
+}
+
+.formi-flag-image.formi-flag-bf,
+.formi-flag-image.formi-flag-bfa {
+    background-position: 0 -1348px;
+}
+
+.formi-flag-image.formi-flag-bg,
+.formi-flag-image.formi-flag-bgr {
+    background-position: 0 -1380px;
+}
+
+.formi-flag-image.formi-flag-bh,
+.formi-flag-image.formi-flag-bhr {
+    background-position: 0 -1412px;
+}
+
+.formi-flag-image.formi-flag-bi,
+.formi-flag-image.formi-flag-bdi {
+    background-position: 0 -1444px;
+}
+
+.formi-flag-image.formi-flag-bj,
+.formi-flag-image.formi-flag-ben {
+    background-position: 0 -1476px;
+}
+
+.formi-flag-image.formi-flag-bm,
+.formi-flag-image.formi-flag-bmu {
+    background-position: 0 -1508px;
+}
+
+.formi-flag-image.formi-flag-bn,
+.formi-flag-image.formi-flag-brn {
+    background-position: 0 -1540px;
+}
+
+.formi-flag-image.formi-flag-bo,
+.formi-flag-image.formi-flag-bol {
+    background-position: 0 -1572px;
+}
+
+.formi-flag-image.formi-flag-br,
+.formi-flag-image.formi-flag-bra {
+    background-position: 0 -1604px;
+}
+
+.formi-flag-image.formi-flag-bs,
+.formi-flag-image.formi-flag-bhs {
+    background-position: 0 -1636px;
+}
+
+.formi-flag-image.formi-flag-bt,
+.formi-flag-image.formi-flag-btn {
+    background-position: 0 -1668px;
+}
+
+.formi-flag-image.formi-flag-bw,
+.formi-flag-image.formi-flag-bwa {
+    background-position: 0 -1700px;
+}
+
+.formi-flag-image.formi-flag-by,
+.formi-flag-image.formi-flag-blr {
+    background-position: 0 -1732px;
+}
+
+.formi-flag-image.formi-flag-bz,
+.formi-flag-image.formi-flag-blz {
+    background-position: 0 -1764px;
+}
+
+.formi-flag-image.formi-flag-ca,
+.formi-flag-image.formi-flag-can {
+    background-position: 0 -1796px;
+}
+
+.formi-flag-image.formi-flag-cd,
+.formi-flag-image.formi-flag-cod {
+    background-position: 0 -1828px;
+}
+
+.formi-flag-image.formi-flag-cf,
+.formi-flag-image.formi-flag-rca {
+    background-position: 0 -1860px;
+}
+
+.formi-flag-image.formi-flag-cg,
+.formi-flag-image.formi-flag-cog {
+    background-position: 0 -1892px;
+}
+
+.formi-flag-image.formi-flag-ch,
+.formi-flag-image.formi-flag-che {
+    background-position: 0 -1924px;
+}
+
+.formi-flag-image.formi-flag-ci,
+.formi-flag-image.formi-flag-civ {
+    background-position: 0 -1956px;
+}
+
+.formi-flag-image.formi-flag-ck,
+.formi-flag-image.formi-flag-cok {
+    background-position: 0 -1988px;
+}
+
+.formi-flag-image.formi-flag-cl,
+.formi-flag-image.formi-flag-chl {
+    background-position: 0 -2020px;
+}
+
+.formi-flag-image.formi-flag-cm,
+.formi-flag-image.formi-flag-cmr {
+    background-position: 0 -2052px;
+}
+
+.formi-flag-image.formi-flag-cn,
+.formi-flag-image.formi-flag-chn {
+    background-position: 0 -2084px;
+}
+
+.formi-flag-image.formi-flag-co,
+.formi-flag-image.formi-flag-col {
+    background-position: 0 -2116px;
+}
+
+.formi-flag-image.formi-flag-cr,
+.formi-flag-image.formi-flag-cri {
+    background-position: 0 -2148px;
+}
+
+.formi-flag-image.formi-flag-cu,
+.formi-flag-image.formi-flag-cub {
+    background-position: 0 -2180px;
+}
+
+.formi-flag-image.formi-flag-cv,
+.formi-flag-image.formi-flag-cpv {
+    background-position: 0 -2212px;
+}
+
+.formi-flag-image.formi-flag-cy,
+.formi-flag-image.formi-flag-cyp {
+    background-position: 0 -2244px;
+}
+
+.formi-flag-image.formi-flag-cz,
+.formi-flag-image.formi-flag-cze {
+    background-position: 0 -2276px;
+}
+
+.formi-flag-image.formi-flag-de,
+.formi-flag-image.formi-flag-deu {
+    background-position: 0 -2308px;
+}
+
+.formi-flag-image.formi-flag-dj,
+.formi-flag-image.formi-flag-dji {
+    background-position: 0 -2340px;
+}
+
+.formi-flag-image.formi-flag-dk,
+.formi-flag-image.formi-flag-dnk {
+    background-position: 0 -2372px;
+}
+
+.formi-flag-image.formi-flag-dm,
+.formi-flag-image.formi-flag-dma {
+    background-position: 0 -2404px;
+}
+
+.formi-flag-image.formi-flag-do,
+.formi-flag-image.formi-flag-dom {
+    background-position: 0 -2436px;
+}
+
+.formi-flag-image.formi-flag-dz,
+.formi-flag-image.formi-flag-dza {
+    background-position: 0 -2468px;
+}
+
+.formi-flag-image.formi-flag-ec,
+.formi-flag-image.formi-flag-ecu {
+    background-position: 0 -2500px;
+}
+
+.formi-flag-image.formi-flag-ee,
+.formi-flag-image.formi-flag-est {
+    background-position: 0 -2532px;
+}
+
+.formi-flag-image.formi-flag-eg,
+.formi-flag-image.formi-flag-egy {
+    background-position: 0 -2564px;
+}
+
+.formi-flag-image.formi-flag-eh,
+.formi-flag-image.formi-flag-esh {
+    background-position: 0 -2596px;
+}
+
+.formi-flag-image.formi-flag-er,
+.formi-flag-image.formi-flag-eri {
+    background-position: 0 -2628px;
+}
+
+.formi-flag-image.formi-flag-es,
+.formi-flag-image.formi-flag-esp {
+    background-position: 0 -2660px;
+}
+
+.formi-flag-image.formi-flag-et,
+.formi-flag-image.formi-flag-eth {
+    background-position: 0 -2692px;
+}
+
+.formi-flag-image.formi-flag-fi,
+.formi-flag-image.formi-flag-fin {
+    background-position: 0 -2724px;
+}
+
+.formi-flag-image.formi-flag-fj,
+.formi-flag-image.formi-flag-fji {
+    background-position: 0 -2756px;
+}
+
+.formi-flag-image.formi-flag-fm,
+.formi-flag-image.formi-flag-fsm {
+    background-position: 0 -2788px;
+}
+
+.formi-flag-image.formi-flag-fo,
+.formi-flag-image.formi-flag-fro {
+    background-position: 0 -2820px;
+}
+
+.formi-flag-image.formi-flag-fr,
+.formi-flag-image.formi-flag-fra {
+    background-position: 0 -2852px;
+}
+
+.formi-flag-image.formi-flag-bl,
+.formi-flag-image.formi-flag-blm {
+    background-position: 0 -2852px;
+}
+
+.formi-flag-image.formi-flag-cp,
+.formi-flag-image.formi-flag-cpt {
+    background-position: 0 -2852px;
+}
+
+.formi-flag-image.formi-flag-mf,
+.formi-flag-image.formi-flag-maf {
+    background-position: 0 -2852px;
+}
+
+.formi-flag-image.formi-flag-yt,
+.formi-flag-image.formi-flag-myt {
+    background-position: 0 -2852px;
+}
+
+.formi-flag-image.formi-flag-ga,
+.formi-flag-image.formi-flag-gab {
+    background-position: 0 -2884px;
+}
+
+.formi-flag-image.formi-flag-gb,
+.formi-flag-image.formi-flag-gbr {
+    background-position: 0 -2916px;
+}
+
+.formi-flag-image.formi-flag-sh,
+.formi-flag-image.formi-flag-shn {
+    background-position: 0 -2916px;
+}
+
+.formi-flag-image.formi-flag-gd,
+.formi-flag-image.formi-flag-grd {
+    background-position: 0 -2948px;
+}
+
+.formi-flag-image.formi-flag-ge,
+.formi-flag-image.formi-flag-geo {
+    background-position: 0 -2980px;
+}
+
+.formi-flag-image.formi-flag-gg,
+.formi-flag-image.formi-flag-ggy {
+    background-position: 0 -3012px;
+}
+
+.formi-flag-image.formi-flag-gh,
+.formi-flag-image.formi-flag-gha {
+    background-position: 0 -3044px;
+}
+
+.formi-flag-image.formi-flag-gi,
+.formi-flag-image.formi-flag-gib {
+    background-position: 0 -3076px;
+}
+
+.formi-flag-image.formi-flag-gl,
+.formi-flag-image.formi-flag-grl {
+    background-position: 0 -3108px;
+}
+
+.formi-flag-image.formi-flag-gm,
+.formi-flag-image.formi-flag-gmb {
+    background-position: 0 -3140px;
+}
+
+.formi-flag-image.formi-flag-gn,
+.formi-flag-image.formi-flag-gin {
+    background-position: 0 -3172px;
+}
+
+.formi-flag-image.formi-flag-gp,
+.formi-flag-image.formi-flag-glp {
+    background-position: 0 -3204px;
+}
+
+.formi-flag-image.formi-flag-gq,
+.formi-flag-image.formi-flag-gnq {
+    background-position: 0 -3236px;
+}
+
+.formi-flag-image.formi-flag-gr,
+.formi-flag-image.formi-flag-grc {
+    background-position: 0 -3268px;
+}
+
+.formi-flag-image.formi-flag-gt,
+.formi-flag-image.formi-flag-gtm {
+    background-position: 0 -3300px;
+}
+
+.formi-flag-image.formi-flag-gu,
+.formi-flag-image.formi-flag-gum {
+    background-position: 0 -3332px;
+}
+
+.formi-flag-image.formi-flag-gw,
+.formi-flag-image.formi-flag-gnb {
+    background-position: 0 -3364px;
+}
+
+.formi-flag-image.formi-flag-gy,
+.formi-flag-image.formi-flag-guy {
+    background-position: 0 -3396px;
+}
+
+.formi-flag-image.formi-flag-hk,
+.formi-flag-image.formi-flag-hkg {
+    background-position: 0 -3428px;
+}
+
+.formi-flag-image.formi-flag-hn,
+.formi-flag-image.formi-flag-hnd {
+    background-position: 0 -3460px;
+}
+
+.formi-flag-image.formi-flag-hr,
+.formi-flag-image.formi-flag-hrv {
+    background-position: 0 -3492px;
+}
+
+.formi-flag-image.formi-flag-ht,
+.formi-flag-image.formi-flag-hti {
+    background-position: 0 -3524px;
+}
+
+.formi-flag-image.formi-flag-hu,
+.formi-flag-image.formi-flag-hun {
+    background-position: 0 -3556px;
+}
+
+.formi-flag-image.formi-flag-id,
+.formi-flag-image.formi-flag-idn {
+    background-position: 0 -3588px;
+}
+
+.formi-flag-image.formi-flag-mc,
+.formi-flag-image.formi-flag-mco {
+    background-position: 0 -3588px;
+}
+
+.formi-flag-image.formi-flag-ie {
+    background-position: 0 -3620px;
+}
+
+.formi-flag-image.formi-flag-il,
+.formi-flag-image.formi-flag-isr {
+    background-position: 0 -3652px;
+}
+
+.formi-flag-image.formi-flag-im,
+.formi-flag-image.formi-flag-imn {
+    background-position: 0 -3684px;
+}
+
+.formi-flag-image.formi-flag-in,
+.formi-flag-image.formi-flag-ind {
+    background-position: 0 -3716px;
+}
+
+.formi-flag-image.formi-flag-iq,
+.formi-flag-image.formi-flag-irq {
+    background-position: 0 -3748px;
+}
+
+.formi-flag-image.formi-flag-ir,
+.formi-flag-image.formi-flag-irn {
+    background-position: 0 -3780px;
+}
+
+.formi-flag-image.formi-flag-is,
+.formi-flag-image.formi-flag-isl {
+    background-position: 0 -3812px;
+}
+
+.formi-flag-image.formi-flag-it,
+.formi-flag-image.formi-flag-ita {
+    background-position: 0 -3844px;
+}
+
+.formi-flag-image.formi-flag-je,
+.formi-flag-image.formi-flag-jey {
+    background-position: 0 -3876px;
+}
+
+.formi-flag-image.formi-flag-jm,
+.formi-flag-image.formi-flag-jam {
+    background-position: 0 -3908px;
+}
+
+.formi-flag-image.formi-flag-jo,
+.formi-flag-image.formi-flag-jor {
+    background-position: 0 -3940px;
+}
+
+.formi-flag-image.formi-flag-jp,
+.formi-flag-image.formi-flag-jpn {
+    background-position: 0 -3972px;
+}
+
+.formi-flag-image.formi-flag-ke,
+.formi-flag-image.formi-flag-ken {
+    background-position: 0 -4004px;
+}
+
+.formi-flag-image.formi-flag-kg,
+.formi-flag-image.formi-flag-kgz {
+    background-position: 0 -4036px;
+}
+
+.formi-flag-image.formi-flag-kh,
+.formi-flag-image.formi-flag-khm {
+    background-position: 0 -4068px;
+}
+
+.formi-flag-image.formi-flag-ki,
+.formi-flag-image.formi-flag-kir {
+    background-position: 0 -4100px;
+}
+
+.formi-flag-image.formi-flag-km,
+.formi-flag-image.formi-flag-com {
+    background-position: 0 -4132px;
+}
+
+.formi-flag-image.formi-flag-kn,
+.formi-flag-image.formi-flag-kna {
+    background-position: 0 -4164px;
+}
+
+.formi-flag-image.formi-flag-kp,
+.formi-flag-image.formi-flag-prk {
+    background-position: 0 -4196px;
+}
+
+.formi-flag-image.formi-flag-kr,
+.formi-flag-image.formi-flag-kor {
+    background-position: 0 -4228px;
+}
+
+.formi-flag-image.formi-flag-kw,
+.formi-flag-image.formi-flag-kwt {
+    background-position: 0 -4260px;
+}
+
+.formi-flag-image.formi-flag-ky,
+.formi-flag-image.formi-flag-cym {
+    background-position: 0 -4292px;
+}
+
+.formi-flag-image.formi-flag-kz,
+.formi-flag-image.formi-flag-kaz {
+    background-position: 0 -4324px;
+}
+
+.formi-flag-image.formi-flag-la,
+.formi-flag-image.formi-flag-lao {
+    background-position: 0 -4356px;
+}
+
+.formi-flag-image.formi-flag-lb,
+.formi-flag-image.formi-flag-lbn {
+    background-position: 0 -4388px;
+}
+
+.formi-flag-image.formi-flag-lc,
+.formi-flag-image.formi-flag-lca {
+    background-position: 0 -4420px;
+}
+
+.formi-flag-image.formi-flag-li,
+.formi-flag-image.formi-flag-lie {
+    background-position: 0 -4452px;
+}
+
+.formi-flag-image.formi-flag-lk,
+.formi-flag-image.formi-flag-lka {
+    background-position: 0 -4484px;
+}
+
+.formi-flag-image.formi-flag-lr,
+.formi-flag-image.formi-flag-lbr {
+    background-position: 0 -4516px;
+}
+
+.formi-flag-image.formi-flag-ls,
+.formi-flag-image.formi-flag-lso {
+    background-position: 0 -4548px;
+}
+
+.formi-flag-image.formi-flag-lt,
+.formi-flag-image.formi-flag-ltu {
+    background-position: 0 -4580px;
+}
+
+.formi-flag-image.formi-flag-lu,
+.formi-flag-image.formi-flag-lux {
+    background-position: 0 -4612px;
+}
+
+.formi-flag-image.formi-flag-lv,
+.formi-flag-image.formi-flag-lva {
+    background-position: 0 -4644px;
+}
+
+.formi-flag-image.formi-flag-ly,
+.formi-flag-image.formi-flag-lby {
+    background-position: 0 -4676px;
+}
+
+.formi-flag-image.formi-flag-ma,
+.formi-flag-image.formi-flag-mar {
+    background-position: 0 -4708px;
+}
+
+.formi-flag-image.formi-flag-md,
+.formi-flag-image.formi-flag-mda {
+    background-position: 0 -4740px;
+}
+
+.formi-flag-image.formi-flag-me,
+.formi-flag-image.formi-flag-mne {
+    background-position: 0 -4772px;
+}
+
+.formi-flag-image.formi-flag-mg,
+.formi-flag-image.formi-flag-mdg {
+    background-position: 0 -4804px;
+}
+
+.formi-flag-image.formi-flag-mh,
+.formi-flag-image.formi-flag-mhl {
+    background-position: 0 -4836px;
+}
+
+.formi-flag-image.formi-flag-mk,
+.formi-flag-image.formi-flag-mkd {
+    background-position: 0 -4868px;
+}
+
+.formi-flag-image.formi-flag-ml,
+.formi-flag-image.formi-flag-mli {
+    background-position: 0 -4900px;
+}
+
+.formi-flag-image.formi-flag-mm,
+.formi-flag-image.formi-flag-mmr {
+    background-position: 0 -4932px;
+}
+
+.formi-flag-image.formi-flag-mn,
+.formi-flag-image.formi-flag-mng {
+    background-position: 0 -4964px;
+}
+
+.formi-flag-image.formi-flag-mo,
+.formi-flag-image.formi-flag-mac {
+    background-position: 0 -4996px;
+}
+
+.formi-flag-image.formi-flag-mq,
+.formi-flag-image.formi-flag-mtq {
+    background-position: 0 -5028px;
+}
+
+.formi-flag-image.formi-flag-mr,
+.formi-flag-image.formi-flag-mrt {
+    background-position: 0 -5060px;
+}
+
+.formi-flag-image.formi-flag-ms,
+.formi-flag-image.formi-flag-msr {
+    background-position: 0 -5092px;
+}
+
+.formi-flag-image.formi-flag-mt,
+.formi-flag-image.formi-flag-mlt {
+    background-position: 0 -5124px;
+}
+
+.formi-flag-image.formi-flag-mu,
+.formi-flag-image.formi-flag-mus {
+    background-position: 0 -5156px;
+}
+
+.formi-flag-image.formi-flag-mv,
+.formi-flag-image.formi-flag-mdv {
+    background-position: 0 -5188px;
+}
+
+.formi-flag-image.formi-flag-mw,
+.formi-flag-image.formi-flag-mwi {
+    background-position: 0 -5220px;
+}
+
+.formi-flag-image.formi-flag-mx,
+.formi-flag-image.formi-flag-mex {
+    background-position: 0 -5252px;
+}
+
+.formi-flag-image.formi-flag-my,
+.formi-flag-image.formi-flag-mys {
+    background-position: 0 -5284px;
+}
+
+.formi-flag-image.formi-flag-mz,
+.formi-flag-image.formi-flag-moz {
+    background-position: 0 -5316px;
+}
+
+.formi-flag-image.formi-flag-na,
+.formi-flag-image.formi-flag-nam {
+    background-position: 0 -5348px;
+}
+
+.formi-flag-image.formi-flag-nc,
+.formi-flag-image.formi-flag-ncl {
+    background-position: 0 -5380px;
+}
+
+.formi-flag-image.formi-flag-ne,
+.formi-flag-image.formi-flag-ner {
+    background-position: 0 -5412px;
+}
+
+.formi-flag-image.formi-flag-ng,
+.formi-flag-image.formi-flag-nga {
+    background-position: 0 -5444px;
+}
+
+.formi-flag-image.formi-flag-ni,
+.formi-flag-image.formi-flag-nic {
+    background-position: 0 -5476px;
+}
+
+.formi-flag-image.formi-flag-nl,
+.formi-flag-image.formi-flag-nld {
+    background-position: 0 -5508px;
+}
+
+.formi-flag-image.formi-flag-nl {
+    background-position: 0 -5508px;
+}
+
+.formi-flag-image.formi-flag-bq {
+    background-position: 0 -5508px;
+}
+
+.formi-flag-image.formi-flag-no {
+    background-position: 0 -5540px;
+}
+
+.formi-flag-image.formi-flag-bv,
+.formi-flag-image.formi-flag-nq,
+.formi-flag-image.formi-flag-sj {
+    background-position: 0 -5540px;
+}
+
+.formi-flag-image.formi-flag-bq,
+.formi-flag-image.formi-flag-bes {
+    background-position: 0 -5508px;
+}
+
+.formi-flag-image.formi-flag-no,
+.formi-flag-image.formi-flag-nor {
+    background-position: 0 -5540px;
+}
+
+.formi-flag-image.formi-flag-bv,
+.formi-flag-image.formi-flag-bvt {
+    background-position: 0 -5540px;
+}
+
+.formi-flag-image.formi-flag-nq,
+.formi-flag-image.formi-flag-atn {
+    background-position: 0 -5540px;
+}
+
+.formi-flag-image.formi-flag-sj,
+.formi-flag-image.formi-flag-sjm {
+    background-position: 0 -5540px;
+}
+
+.formi-flag-image.formi-flag-np,
+.formi-flag-image.formi-flag-npl {
+    background-position: 0 -5572px;
+}
+
+.formi-flag-image.formi-flag-nr,
+.formi-flag-image.formi-flag-nru {
+    background-position: 0 -5604px;
+}
+
+.formi-flag-image.formi-flag-nz,
+.formi-flag-image.formi-flag-nzl {
+    background-position: 0 -5636px;
+}
+
+.formi-flag-image.formi-flag-om,
+.formi-flag-image.formi-flag-omn {
+    background-position: 0 -5668px;
+}
+
+.formi-flag-image.formi-flag-pa,
+.formi-flag-image.formi-flag-pan {
+    background-position: 0 -5700px;
+}
+
+.formi-flag-image.formi-flag-pe,
+.formi-flag-image.formi-flag-per {
+    background-position: 0 -5732px;
+}
+
+.formi-flag-image.formi-flag-pf,
+.formi-flag-image.formi-flag-pyf {
+    background-position: 0 -5764px;
+}
+
+.formi-flag-image.formi-flag-pg,
+.formi-flag-image.formi-flag-png {
+    background-position: 0 -5796px;
+}
+
+.formi-flag-image.formi-flag-ph,
+.formi-flag-image.formi-flag-phl {
+    background-position: 0 -5828px;
+}
+
+.formi-flag-image.formi-flag-pk,
+.formi-flag-image.formi-flag-pak {
+    background-position: 0 -5860px;
+}
+
+.formi-flag-image.formi-flag-pl,
+.formi-flag-image.formi-flag-pol {
+    background-position: 0 -5892px;
+}
+
+.formi-flag-image.formi-flag-pr,
+.formi-flag-image.formi-flag-pri {
+    background-position: 0 -5924px;
+}
+
+.formi-flag-image.formi-flag-ps,
+.formi-flag-image.formi-flag-pse {
+    background-position: 0 -5956px;
+}
+
+.formi-flag-image.formi-flag-pt,
+.formi-flag-image.formi-flag-prt {
+    background-position: 0 -5988px;
+}
+
+.formi-flag-image.formi-flag-pw,
+.formi-flag-image.formi-flag-plw {
+    background-position: 0 -6020px;
+}
+
+.formi-flag-image.formi-flag-py,
+.formi-flag-image.formi-flag-pry {
+    background-position: 0 -6052px;
+}
+
+.formi-flag-image.formi-flag-qa,
+.formi-flag-image.formi-flag-qat {
+    background-position: 0 -6084px;
+}
+
+.formi-flag-image.formi-flag-re,
+.formi-flag-image.formi-flag-reu {
+    background-position: 0 -6116px;
+}
+
+.formi-flag-image.formi-flag-ro,
+.formi-flag-image.formi-flag-rou {
+    background-position: 0 -6148px;
+}
+
+.formi-flag-image.formi-flag-rs,
+.formi-flag-image.formi-flag-srb {
+    background-position: 0 -6180px;
+}
+
+.formi-flag-image.formi-flag-ru,
+.formi-flag-image.formi-flag-rus {
+    background-position: 0 -6212px;
+}
+
+.formi-flag-image.formi-flag-rw,
+.formi-flag-image.formi-flag-rwa {
+    background-position: 0 -6244px;
+}
+
+.formi-flag-image.formi-flag-sa,
+.formi-flag-image.formi-flag-sau {
+    background-position: 0 -6276px;
+}
+
+.formi-flag-image.formi-flag-sb,
+.formi-flag-image.formi-flag-slb {
+    background-position: 0 -6308px;
+}
+
+.formi-flag-image.formi-flag-sc,
+.formi-flag-image.formi-flag-syc {
+    background-position: 0 -6340px;
+}
+
+.formi-flag-image.formi-flag-sd,
+.formi-flag-image.formi-flag-sdn {
+    background-position: 0 -6372px;
+}
+
+.formi-flag-image.formi-flag-se,
+.formi-flag-image.formi-flag-swe {
+    background-position: 0 -6404px;
+}
+
+.formi-flag-image.formi-flag-sg,
+.formi-flag-image.formi-flag-sgp {
+    background-position: 0 -6436px;
+}
+
+.formi-flag-image.formi-flag-si,
+.formi-flag-image.formi-flag-svn {
+    background-position: 0 -6468px;
+}
+
+.formi-flag-image.formi-flag-sk,
+.formi-flag-image.formi-flag-svk {
+    background-position: 0 -6500px;
+}
+
+.formi-flag-image.formi-flag-sl,
+.formi-flag-image.formi-flag-sle {
+    background-position: 0 -6532px;
+}
+
+.formi-flag-image.formi-flag-sm,
+.formi-flag-image.formi-flag-smr {
+    background-position: 0 -6564px;
+}
+
+.formi-flag-image.formi-flag-sn,
+.formi-flag-image.formi-flag-sen {
+    background-position: 0 -6596px;
+}
+
+.formi-flag-image.formi-flag-so,
+.formi-flag-image.formi-flag-som {
+    background-position: 0 -6628px;
+}
+
+.formi-flag-image.formi-flag-sr,
+.formi-flag-image.formi-flag-sur {
+    background-position: 0 -6660px;
+}
+
+.formi-flag-image.formi-flag-st,
+.formi-flag-image.formi-flag-stp {
+    background-position: 0 -6692px;
+}
+
+.formi-flag-image.formi-flag-sv,
+.formi-flag-image.formi-flag-slv {
+    background-position: 0 -6724px;
+}
+
+.formi-flag-image.formi-flag-sy,
+.formi-flag-image.formi-flag-syr {
+    background-position: 0 -6756px;
+}
+
+.formi-flag-image.formi-flag-sz,
+.formi-flag-image.formi-flag-swz {
+    background-position: 0 -6788px;
+}
+
+.formi-flag-image.formi-flag-tc,
+.formi-flag-image.formi-flag-tca {
+    background-position: 0 -6820px;
+}
+
+.formi-flag-image.formi-flag-td,
+.formi-flag-image.formi-flag-tcd {
+    background-position: 0 -6852px;
+}
+
+.formi-flag-image.formi-flag-tg,
+.formi-flag-image.formi-flag-tgo {
+    background-position: 0 -6884px;
+}
+
+.formi-flag-image.formi-flag-th,
+.formi-flag-image.formi-flag-tha {
+    background-position: 0 -6916px;
+}
+
+.formi-flag-image.formi-flag-tj,
+.formi-flag-image.formi-flag-tjk {
+    background-position: 0 -6948px;
+}
+
+.formi-flag-image.formi-flag-tl,
+.formi-flag-image.formi-flag-tls {
+    background-position: 0 -6980px;
+}
+
+.formi-flag-image.formi-flag-tm,
+.formi-flag-image.formi-flag-tkm {
+    background-position: 0 -7012px;
+}
+
+.formi-flag-image.formi-flag-tn,
+.formi-flag-image.formi-flag-tun {
+    background-position: 0 -7044px;
+}
+
+.formi-flag-image.formi-flag-to,
+.formi-flag-image.formi-flag-ton {
+    background-position: 0 -7076px;
+}
+
+.formi-flag-image.formi-flag-tr,
+.formi-flag-image.formi-flag-tur {
+    background-position: 0 -7108px;
+}
+
+.formi-flag-image.formi-flag-tt,
+.formi-flag-image.formi-flag-tto {
+    background-position: 0 -7140px;
+}
+
+.formi-flag-image.formi-flag-tv,
+.formi-flag-image.formi-flag-tuv {
+    background-position: 0 -7172px;
+}
+
+.formi-flag-image.formi-flag-tw,
+.formi-flag-image.formi-flag-twn {
+    background-position: 0 -7204px;
+}
+
+.formi-flag-image.formi-flag-tz,
+.formi-flag-image.formi-flag-tza {
+    background-position: 0 -7236px;
+}
+
+.formi-flag-image.formi-flag-ua,
+.formi-flag-image.formi-flag-ukr {
+    background-position: 0 -7268px;
+}
+
+.formi-flag-image.formi-flag-ug,
+.formi-flag-image.formi-flag-uga {
+    background-position: 0 -7300px;
+}
+
+.formi-flag-image.formi-flag-us,
+.formi-flag-image.formi-flag-usa {
+    background-position: 0 -7332px;
+}
+
+.formi-flag-image.formi-flag-uy,
+.formi-flag-image.formi-flag-ury {
+    background-position: 0 -7364px;
+}
+
+.formi-flag-image.formi-flag-uz,
+.formi-flag-image.formi-flag-uzb {
+    background-position: 0 -7396px;
+}
+
+.formi-flag-image.formi-flag-va,
+.formi-flag-image.formi-flag-vat {
+    background-position: 0 -7428px;
+}
+
+.formi-flag-image.formi-flag-vc,
+.formi-flag-image.formi-flag-vct {
+    background-position: 0 -7460px;
+}
+
+.formi-flag-image.formi-flag-ve,
+.formi-flag-image.formi-flag-ven {
+    background-position: 0 -7492px;
+}
+
+.formi-flag-image.formi-flag-vg,
+.formi-flag-image.formi-flag-vgb {
+    background-position: 0 -7524px;
+}
+
+.formi-flag-image.formi-flag-vi,
+.formi-flag-image.formi-flag-vir {
+    background-position: 0 -7556px;
+}
+
+.formi-flag-image.formi-flag-vn,
+.formi-flag-image.formi-flag-vnm {
+    background-position: 0 -7588px;
+}
+
+.formi-flag-image.formi-flag-vu,
+.formi-flag-image.formi-flag-vut {
+    background-position: 0 -7620px;
+}
+
+.formi-flag-image.formi-flag-ws,
+.formi-flag-image.formi-flag-wsm {
+    background-position: 0 -7652px;
+}
+
+.formi-flag-image.formi-flag-ye,
+.formi-flag-image.formi-flag-yem {
+    background-position: 0 -7684px;
+}
+
+.formi-flag-image.formi-flag-za,
+.formi-flag-image.formi-flag-zaf {
+    background-position: 0 -7716px;
+}
+
+.formi-flag-image.formi-flag-zm,
+.formi-flag-image.formi-flag-zmb {
+    background-position: 0 -7748px;
+}
+
+.formi-flag-image.formi-flag-zw,
+.formi-flag-image.formi-flag-zwe {
+    background-position: 0 -7780px;
+}
+
+.formi-flag-image.formi-flag-sx,
+.formi-flag-image.formi-flag-sxm {
+    background-position: 0 -7812px;
+}
+
+.formi-flag-image.formi-flag-cw,
+.formi-flag-image.formi-flag-cuw {
+    background-position: 0 -7844px;
+}
+
+.formi-flag-image.formi-flag-ss,
+.formi-flag-image.formi-flag-ssd {
+    background-position: 0 -7876px;
+}
+
+.formi-flag-image.formi-flag-nu,
+.formi-flag-image.formi-flag-niu {
+    background-position: 0 -7908px;
+}
+
+.formi-flag-image.formi-flag-gf {
+    background-position: 0 -7940px;
+}
+
+.formi-flag-image.formi-flag-pm {
+    background-position: 0 -7972px;
+}
+
+.formi-flag-image.formi-flag-tf {
+    background-position: 0 -8004px;
+}
+
+.formi-flag-image.formi-flag-an {
+    background-position: 0 -8036px;
+}
+
+.formi-flag-image.formi-flag-nf {
+    background-position: 0 -8068px;
+}
+
+.formi-flag-image.formi-flag-gs {
+    background-position: 0 -8100px;
+}
+
+.formi-flag-image.formi-flag-fk {
+    background-position: 0 -8132px;
+}
+
+.formi-flag-image.formi-flag-cx {
+    background-position: 0 -8164px;
+}
+
+.formi-flag-image.formi-flag-cc {
+    background-position: 0 -8196px;
+}
+
+.formi-flag-image.formi-flag-mp {
+    background-position: 0 -8228px;
+}
+
+.formi-flag-image.formi-flag-tk {
+    background-position: 0 -8260px;
+}
+
+.formi-flag-image.formi-flag-wf {
+    background-position: 0 -8292px;
+}
+
+.formi-flag-image.formi-flag-pn {
+    background-position: 0 -8324px;
+}
+
+/*#region name */
+
+.formi-btn-submit-secondary {
+    background: #fff;
+    color: #5A3594;
+    transition: all 0.5s;
+    border: 1px solid #5A3594;
+    margin: 10px auto;
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 16px 24px;
+    cursor: pointer;
+    white-space: normal;
+    text-align: center;
+}
+
+.icon-box img {
+    margin: 30px auto;
+    display: block;
+    width: 70px;
+    text-align: center;
+}
+
+.formi-btn-submit {
+    transition: all 0.5s;
+}
+
+.formi-btn-submit:hover {
+    background: #442e76;
+    text-decoration: none;
+}
+
+.formi-btn-submit-secondary:hover {
+    background: #5A3594;
+    color: #fff;
+    text-decoration: none;
+}
+
+.formi-btn-submit-holder a:hover {
+    text-decoration: none;
+}
+
+/*#endregion */

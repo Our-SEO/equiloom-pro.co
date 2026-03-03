@@ -1,0 +1,370 @@
+
+.list-pwd-tips {
+    padding-left: 5px;
+    list-style-type: none;
+}
+
+.list-pwd-tips li {
+    position: relative;
+    font-size: 0.8em !important;
+    margin-bottom: 10px;
+    line-height: 1 !important;
+    transition: all 0.3s ease-out !important;
+    text-align: left !important;
+    padding-left: 5px;
+}
+
+.list-pwd-tips li:before {
+    position: absolute;
+    display: block;
+    content: " ";
+    width: 5px;
+    height: 5px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #000;
+    top: 3px;
+    right: 100%;
+}
+
+.list-pwd-tips li.passing:before {
+    background-color: green !important;
+}
+
+.list-pwd-tips .text-red {
+    color: #000;
+}
+
+.list-pwd-tips.touched li:before {
+    background-color: red;
+}
+
+.list-pwd-tips.touched .text-red {
+    color: red;
+}
+
+.list-pwd-tips.touched .text-green {
+    color: green;
+}
+
+.js-pwd-tooltip-icon {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    cursor: pointer;
+}
+
+.error-message {
+    margin-top: 30px !important;
+    text-align: center !important;
+    padding-bottom: 10px !important;
+    color: red;
+}
+
+.progress {
+    width: 100%;
+    height: 45px;
+}
+
+.modal-signup {
+    max-width: 800px;
+    max-height: 650px;
+    background-color: #fff;
+    font-size: 14px;
+    margin: auto;
+    padding: 20px 30px !important;
+    text-align: center;
+    z-index: 10001;
+}
+
+@media all and (max-width: 768px) {
+    .modal-signup {
+        max-height: 550px;
+    }
+}
+
+.modal-signup main {
+    padding: 20px 0;
+}
+
+@media all and (max-width: 768px) {
+    .modal-signup main {
+        padding: unset;
+    }
+}
+
+.modal-signup main .broker-info {
+    padding: 0 20px;
+    text-align: center;
+    width: 100%;
+}
+
+@media all and (max-width: 768px) {
+    .modal-signup main .broker-info .modal-logo {
+        padding: 20px;
+    }
+}
+
+.modal-signup main .logo {
+    height: 200px;
+    padding-top: 50px;
+}
+
+@media all and (max-width: 768px) {
+    .modal-signup main .logo {
+        padding-top: 40px;
+    }
+}
+
+.modal-signup main .logo img {
+    vertical-align: middle;
+    max-width: 300px;
+}
+
+.modal-signup main .broker-advantages {
+    padding-top: 20px;
+}
+
+.modal-signup main .broker-advantages .item {
+    text-align: left;
+}
+
+.modal-signup main .broker-advantages .item .icon {
+    display: inline-block;
+}
+
+@media all and (max-width: 768px) {
+    .modal-signup main .broker-advantages .item .icon {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.modal-signup main .broker-advantages .item .icon img {
+    width: 50px;
+}
+
+.modal-signup main .broker-advantages .item .text {
+    display: inline-block;
+    text-align: left;
+}
+
+@media all and (max-width: 768px) {
+    .modal-signup main .broker-advantages .item .text {
+        text-align: center;
+    }
+}
+
+.modal-signup .modal-button-hide-mobile {
+    display: block;
+}
+
+@media all and (max-width: 768px) {
+    .modal-signup .modal-button-hide-mobile {
+        display: none;
+    }
+}
+
+.modal-signup .modal-button-show-mobile {
+    display: none;
+}
+
+@media all and (max-width: 768px) {
+    .modal-signup .modal-button-show-mobile {
+        display: block;
+    }
+}
+@media screen and (min-width: 280px) {
+    .formwrap-outer .formi-form-signup {
+        padding: 0;
+    }
+}
+
+.modal-signup .start-trading-button {
+    background-color: #18a7f8;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1em;
+    padding: 10px;
+    width: 500px;
+    max-width: 100%;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.modal-signup .js-formi-modal-loader {
+    display: none;
+}
+
+.text-green {
+    color: green;
+    display: block;
+    margin-top: 5px;
+}
+
+.register-form-tab .tooltip.in .tooltip-inner {
+    margin-left: -7px;
+    padding: 4px;
+}
+
+.btn-start {
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 0.5px 0.866px 0px rgba(1, 198, 0, 0.35);
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0be00b+0,01c601+100 */
+    background: #ffaf38;
+    /* Old browsers */
+    /* FF3.6-15 */
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #a110cb 0%, #740d92 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a110cb", endColorstr="#740d92", GradientType=0);
+    /* IE6-9 */
+}
+
+.btn-start:hover,
+.btn-start:focus {
+    color: #ffffff;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#01c601+0,0be00b+100 */
+    background: #ff9b33;
+    /* Old browsers */
+    /* FF3.6-15 */
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #740d92 0%, #a110cb 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#740d92", endColorstr="#a110cb", GradientType=0);
+    /* IE6-9 */
+}
+
+.hidden {
+    display: none !important;
+}
+
+@media all and (max-width: 768px) {
+    .footer-ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        justify-content: center;
+    }
+    .footer-ul li {
+        margin-right: 15px;
+    }
+}
+
+body .seenon-p {
+    color: white;
+    pointer-events: none;
+}
+
+body .fake-news-logos-wrapper {
+    display: none;
+}
+
+body .formi-cookie-popup .formi-cookie-popup-link-privacy-policy {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+@media all and (max-width: 768px) {
+    body .video-form-section .video-header {
+        font-size: 3.4rem;
+    }
+}
+
+@media all and (max-width: 768px) {
+    body .join-us-section .join-us-header {
+        word-break: break-word;
+        white-space: normal;
+    }
+}
+
+.btc-widget-wrapper {
+    z-index: 99999;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
+@media all and (max-width: 768px) {
+    .btc-widget-wrapper {
+        display: none;
+    }
+}
+
+.ask-bid-wrapper .js-bitcoin-disclamer {
+    display: none;
+}
+
+.ask-bid-wrapper .alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.ask-bid-wrapper .alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+.ask-bid-wrapper .alert-warning hr {
+    border-top-color: #ffe8a1;
+}
+
+.ask-bid-wrapper .alert-warning .alert-link {
+    color: #533f03;
+}
+
+.ask-bid-wrapper .ask-bid {
+    text-align: center;
+    font-size: 11px;
+    margin-bottom: 0;
+}
+
+#custom-regbox .formHeader {
+    white-space: normal;
+    word-break: break-word;
+}
+
+@media all and (max-width: 768px) {
+    .bid-ask-span {
+        animation: unset;
+    }
+}
+
+.img-u4m {
+    display: flex;
+    width: 15%;
+}
+
+@media all and (max-width: 768px) {
+    .img-u4m {
+        display: inline-block;
+        width: 40%;
+    }
+}
+
+/*# sourceMappingURL=intgrtn.css.map */
+
+.formwrap-outer .formi-form-signup .formi-form-signup-3-steps .formi-steps-navigation .formi-steps-navigation-item {
+    width: 50%;
+}
+
+.formi-input-message-error {
+    display: none;
+}
+
+::placeholder {
+    color: #707070!important;
+}

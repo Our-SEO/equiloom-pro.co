@@ -1,0 +1,360 @@
+p.form-disclaimers {
+  font-size: 11px;
+  margin: 0;
+}
+
+.formwrap-outer .formi-form-signup {
+  padding: 20px;
+}
+
+.form-container {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+#custom-regbox {
+  width: 100%;
+}
+#custom-regbox .formHeader {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup-3-steps
+  .formi-steps-navigation,
+.formwrap-outer .formi-form-signup .formi-form-signup .formi-steps-navigation,
+.formwrap-outer .formi-form-signup .formi-form-optin .formi-steps-navigation {
+  display: flex;
+}
+
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup-3-steps
+  .formi-steps-navigation
+  .formi-steps-navigation-item,
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup
+  .formi-steps-navigation
+  .formi-steps-navigation-item,
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-optin
+  .formi-steps-navigation
+  .formi-steps-navigation-item {
+  display: inline-block;
+  background: #ececec;
+  color: white;
+  font-size: 2em;
+  line-height: 1.1em;
+  border-radius: 3px;
+  font-weight: bold;
+  height: 7px;
+  width: 33%;
+  margin-right: 2px;
+  text-indent: 100%;
+  overflow: hidden;
+}
+
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup-3-steps
+  .formi-steps-navigation
+  .formi-steps-navigation-item.formi-active,
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup
+  .formi-steps-navigation
+  .formi-steps-navigation-item.formi-active,
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-optin
+  .formi-steps-navigation
+  .formi-steps-navigation-item.formi-active {
+  background-color: #5a3594;
+}
+
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup-3-steps
+  .formi-steps-navigation
+  .formi-steps-navigation-item:after,
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup
+  .formi-steps-navigation
+  .formi-steps-navigation-item:after,
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-optin
+  .formi-steps-navigation
+  .formi-steps-navigation-item:after {
+  content: "";
+}
+
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup-3-steps
+  .formi-input-holder
+  .formi-input,
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup
+  .formi-input-holder
+  .formi-input,
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-optin
+  .formi-input-holder
+  .formi-input {
+  padding: 24px 16px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ececec;
+  border-radius: 6px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media all and (max-width: 768px) {
+  .formwrap-outer
+    .formi-form-signup
+    .formi-form-signup-3-steps
+    .formi-input-holder
+    .formi-input
+    .formi-areas-dropdown,
+  .formwrap-outer
+    .formi-form-signup
+    .formi-form-signup
+    .formi-input-holder
+    .formi-input
+    .formi-areas-dropdown,
+  .formwrap-outer
+    .formi-form-signup
+    .formi-form-optin
+    .formi-input-holder
+    .formi-input
+    .formi-areas-dropdown {
+    width: 270px;
+  }
+}
+
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup-3-steps
+  .formi-input-holder
+  .formi-input-message-error-verbose,
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup
+  .formi-input-holder
+  .formi-input-message-error-verbose,
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-optin
+  .formi-input-holder
+  .formi-input-message-error-verbose {
+  margin: 10px 0;
+}
+
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup-3-steps
+  .formi-input-holder
+  .formi-input-message-error-verbose
+  .formi-single-message,
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup
+  .formi-input-holder
+  .formi-input-message-error-verbose
+  .formi-single-message,
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-optin
+  .formi-input-holder
+  .formi-input-message-error-verbose
+  .formi-single-message {
+  font-size: 0.8em !important;
+  margin-bottom: 10px;
+  line-height: 1 !important;
+  transition: all 0.3s ease-out !important;
+  text-align: left !important;
+  padding-left: 5px;
+}
+
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup-3-steps
+  .formi-input-holder
+  .formi-input-message-error-verbose
+  .formi-single-message.formi-untouched,
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup
+  .formi-input-holder
+  .formi-input-message-error-verbose
+  .formi-single-message.formi-untouched,
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-optin
+  .formi-input-holder
+  .formi-input-message-error-verbose
+  .formi-single-message.formi-untouched {
+  color: #000;
+}
+
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup-3-steps
+  .formi-input-holder.formi-input-holder-password,
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup
+  .formi-input-holder.formi-input-holder-password,
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-optin
+  .formi-input-holder.formi-input-holder-password {
+  display: none;
+}
+
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup-3-steps
+  .formi-input-holder.formi-input-holder-password
+  .formi-btn-generate-password-holder,
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup
+  .formi-input-holder.formi-input-holder-password
+  .formi-btn-generate-password-holder,
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-optin
+  .formi-input-holder.formi-input-holder-password
+  .formi-btn-generate-password-holder {
+  flex-wrap: nowrap;
+}
+
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup-3-steps
+  .formi-btn-go-to-step,
+.formwrap-outer .formi-form-signup .formi-form-signup-3-steps .formi-btn-submit,
+.formwrap-outer .formi-form-signup .formi-form-signup .formi-btn-go-to-step,
+.formwrap-outer .formi-form-signup .formi-form-signup .formi-btn-submit,
+.formwrap-outer .formi-form-signup .formi-form-optin .formi-btn-go-to-step,
+.formwrap-outer .formi-form-signup .formi-form-optin .formi-btn-submit {
+  margin: 0 auto;
+  display: block;
+  font-size: 17px;
+  font-weight: bold;
+  position: relative;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background-color: #00838f;;
+  color: white !important;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 16px 24px;
+  cursor: pointer;
+  white-space: normal;
+  text-align: center;
+}
+
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup-3-steps:invalid
+  .formi-btn-go-to-step,
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup-3-steps:invalid
+  .formi-btn-submit,
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup:invalid
+  .formi-btn-go-to-step,
+.formwrap-outer .formi-form-signup .formi-form-signup:invalid .formi-btn-submit,
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-optin:invalid
+  .formi-btn-go-to-step,
+.formwrap-outer .formi-form-signup .formi-form-optin:invalid .formi-btn-submit {
+  background: #5c5c5c !important;
+  background-color: #5c5c5c !important;
+  cursor: not-allowed;
+}
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup-3-steps
+  .formi-btn-go-to-step:disabled,
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup-3-steps
+  .formi-btn-submit:disabled,
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup
+  .formi-btn-go-to-step:disabled,
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup
+  .formi-btn-submit:disabled,
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-optin
+  .formi-btn-go-to-step:disabled,
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-optin
+  .formi-btn-submit:disabled {
+  background: #5c5c5c !important;
+  background-color: #5c5c5c !important;
+  cursor: not-allowed;
+}
+
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup-3-steps
+  .formi-btn-go-to-step {
+  transition: all 0.5s;
+  margin-top: 16px;
+}
+
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup-3-steps
+  .formi-btn-go-to-step:hover {
+  background: #452770;
+}
+
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup-3-steps
+  [data-formi-message-id="passwordConfirmMatch"],
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup
+  [data-formi-message-id="passwordConfirmMatch"],
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-optin
+  [data-formi-message-id="passwordConfirmMatch"] {
+  display: none;
+}
+.formwrap-outer
+  .formi-form-signup
+  .formi-form-signup-3-steps
+  .formi-steps-navigation
+  .formi-steps-navigation-item {
+  width: 50%;
+}
+
+.formi-input-message-error {
+  display: none;
+}
