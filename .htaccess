@@ -1,0 +1,88 @@
+Options -MultiViews
+RewriteEngine On
+
+RewriteBase /
+
+# -------------------------------------------------
+# Защита: блок прямого доступа к секретам и логам
+# (до правила "Serve real files" — иначе env/config отдаются как текст)
+# -------------------------------------------------
+RewriteRule ^form_crypto_hyper/env\.php$ - [F,L]
+RewriteRule ^form_crypto_hyper/config\.php$ - [F,L]
+RewriteRule ^form_crypto_hyper/logs/ - [F,L]
+RewriteRule ^form_crypto_hyper/features/(banned_ips|banned_emails)\.txt$ - [F,L]
+RewriteRule ^form_crypto_hyper/features/shadow_ban\.php$ - [F,L]
+RewriteRule ^\.idea/ - [F,L]
+RewriteRule \.(env|log|sql|bak|git)$ - [F,L]
+
+# -------------------------------------------------
+# DEFAULT LANGUAGE (change here)
+# -------------------------------------------------
+RewriteRule ^ - [E=DEFAULT_LANG:en]
+
+# If for some reason DEFAULT_LANG is still empty, set fallback (extra safety)
+RewriteCond %{ENV:DEFAULT_LANG} ^$
+RewriteRule ^ - [E=DEFAULT_LANG:en]
+
+# -------------------------------------------------
+# Canonical redirects
+# -------------------------------------------------
+
+# /index.php -> /{DEFAULT_LANG}/
+RewriteCond %{THE_REQUEST} \s/+index\.php[\s?] [NC]
+RewriteRule ^index\.php$ /%{ENV:DEFAULT_LANG}/ [R=301,L]
+
+# / -> /{DEFAULT_LANG}/
+RewriteRule ^$ /%{ENV:DEFAULT_LANG}/ [R=301,L]
+
+# /something.php -> /something
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+RewriteRule ^ %1 [R=301,L]
+
+# Force trailing slash for language roots
+RewriteRule ^([A-Za-z]{2}(?:[_-][A-Za-z]{2})?)$ $1/ [R=301,L]
+
+# Remove trailing slash for non-directories EXCEPT language roots
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/([A-Za-z]{2}(?:[_-][A-Za-z]{2})?)/$
+RewriteRule ^(.+?)/$ $1 [R=301,L]
+
+# -------------------------------------------------
+# Canonical: cut extra segments
+# /lang/page/extra... -> /lang/page
+# -------------------------------------------------
+RewriteCond %{REQUEST_URI} ^/([A-Za-z]{2}(?:[_-][A-Za-z]{2})?)/([A-Za-z0-9_-]+)/.+$
+RewriteRule ^ %1/%2 [R=301,L]
+
+# -------------------------------------------------
+# Serve real existing files/folders directly
+# -------------------------------------------------
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# -------------------------------------------------
+# If NO language prefix, redirect to /{DEFAULT_LANG}/...
+# -------------------------------------------------
+RewriteCond %{REQUEST_URI} !^/([A-Za-z]{2}(?:[_-][A-Za-z]{2})?)(/|$)
+RewriteRule ^(.+)$ /%{ENV:DEFAULT_LANG}/$1 [R=301,L]
+
+# -------------------------------------------------
+# Canonical: if /lang/page but page.php DOES NOT exist -> /lang/
+# -------------------------------------------------
+RewriteCond %{REQUEST_URI} ^/([A-Za-z]{2}(?:[_-][A-Za-z]{2})?)/([A-Za-z0-9_-]+)$
+RewriteCond %{DOCUMENT_ROOT}/%2.php !-f
+RewriteRule ^([A-Za-z]{2}(?:[_-][A-Za-z]{2})?)/([A-Za-z0-9_-]+)$ %1/ [R=301,L]
+
+# -------------------------------------------------
+# /lang/page -> /page.php if exists
+# -------------------------------------------------
+RewriteCond %{REQUEST_URI} ^/([A-Za-z]{2}(?:[_-][A-Za-z]{2})?)/([A-Za-z0-9_-]+)$
+RewriteCond %{DOCUMENT_ROOT}/%2.php -f
+RewriteRule ^([A-Za-z]{2}(?:[_-][A-Za-z]{2})?)/([A-Za-z0-9_-]+)$ %2.php [L,QSA]
+
+# /lang/ -> index.php
+RewriteRule ^([A-Za-z]{2}(?:[_-][A-Za-z]{2})?)/?$ index.php [L,QSA]
+
+# Fallback -> index.php
+RewriteRule ^ index.php [L,QSA]
