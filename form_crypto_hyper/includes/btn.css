@@ -244,10 +244,6 @@
     /* IE6-9 */
 }
 
-.hidden {
-    display: none !important;
-}
-
 @media all and (max-width: 768px) {
     .footer-ul {
         display: flex;

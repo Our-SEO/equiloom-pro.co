@@ -118,7 +118,7 @@
   right: 0;
   border: 1px solid lightgray;
   border-radius: 6px;
-  background: transparent;
+  background: var(--color-sw-bg);
   font-family: "Montserrat", sans-serif;
   color: white;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
