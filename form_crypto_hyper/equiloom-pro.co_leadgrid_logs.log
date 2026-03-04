@@ -1,0 +1,46 @@
+Array
+(
+    [first_name] => ascasc
+    [last_name] => dfbdfbdfb
+    [password] => Aa1dAgGEM273
+    [email] => ascvasvsav@gmail.com
+    [phone] => 43021245
+    [area_code] => +359
+    [hitid] => {subid}
+    [country] => BG
+    [funnel] => EquLum App AI
+    [affid] => 6
+    [aff_sub2] => SEO
+    [aff_sub3] => ES
+    [aff_sub4] => SEO
+    [aff_sub9] => switch
+    [aff_sub10] => SEO-62
+    [source] => Facebook
+    [_ip] => 91.92.66.143
+    [language] => ES
+)
+
+
+Array
+(
+    [csrf_token] => 3096cc6021c83b4f1dd0ff47555efd3123bad786d69ab32ce375714216fd0c16
+    [subid] => {subid}
+    [pixel] => {sub_id_2}
+    [lang] => es
+    [source] => {traffic_source_name}
+    [offer] => EquLum App AI
+    [sub4] => {sub_id_8}
+    [country] => bg
+    [design] => 
+    [offer_id] => 
+    [fp_sid] => 
+    [fio] => ascasc
+    [lastName] => dfbdfbdfb
+    [solrka] => ascvasvsav@gmail.com
+    [areaCode] => 
+    [search2] => 43021245
+    [full] => +35943021245
+    [fp_nonce] => 1772638608
+    [fp_hash] => 1d0f1e3c2a70cdd159d2afdf77ba5151fb66820020e067e2308ed7f53e140943
+    [fp_checks] => 1
+)

@@ -15,17 +15,17 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
 
 if (!empty($_POST)) {
     ## bot check start
-    if (!empty($checkBotAndReturnData = checkBot($_POST))) {
-        if (IS_DEBUG === 'yes') {
-            echo json_encode(['status' => 'ok', 'message' => 'Bot check not passed', 'data' => $checkBotAndReturnData]);
-            exit();
-        }
-        echo json_encode(
-            ['status' => 'ok',
-                'redirect' => $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/form_crypto_hyper/thanks.html'
-            ]);
-        exit();
-    };
+//    if (!empty($checkBotAndReturnData = checkBot($_POST))) {
+//        if (IS_DEBUG === 'yes') {
+//            echo json_encode(['status' => 'ok', 'message' => 'Bot check not passed', 'data' => $checkBotAndReturnData]);
+//            exit();
+//        }
+//        echo json_encode(
+//            ['status' => 'ok',
+//                'redirect' => $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/form_crypto_hyper/thanks.html'
+//            ]);
+//        exit();
+//    };
     ## bot check end
 
     $fio = !empty($_POST['fio']) ? $_POST['fio'] : '';

@@ -780,7 +780,7 @@ $translate = [
         'Redirecting You on next page...' => '次のページにリダイレクトしています...',
         'Preparing data' => 'データ準備中',
         'Registering in system' => 'システムへの登録',
-     
+        'No válida' => '有効な電話番号を入力してください。',
         'Please, try again' => 'もう一度お試しください',
     ],
     'ru' => [
@@ -1001,7 +1001,7 @@ $translate = [
         'Preparing data' => 'Förbereder data',
         'Registering in system' => 'Registrerar i systemet',
         'Por favor ingrese un número móvil' => 'Ange ett mobilnummer',
-       
+        'No válida' => 'Ogiltig',
         'Please, try again' => 'Vänligen försök igen',
     ],
     'ko' => [

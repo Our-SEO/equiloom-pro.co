@@ -35,8 +35,9 @@ RewriteRule ^index\.php$ /%{ENV:DEFAULT_LANG}/ [R=301,L]
 # / -> /{DEFAULT_LANG}/
 RewriteRule ^$ /%{ENV:DEFAULT_LANG}/ [R=301,L]
 
-# /something.php -> /something
+# /something.php -> /something (except form_crypto_hyper — API must keep .php to avoid POST→GET on 301)
 RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
+RewriteCond %{REQUEST_URI} !^/form_crypto_hyper/
 RewriteRule ^ %1 [R=301,L]
 
 # Force trailing slash for language roots

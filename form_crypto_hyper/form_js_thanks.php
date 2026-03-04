@@ -67,13 +67,13 @@ $special = (!empty($_GET['special'])) ? trim($_GET['special']) : 0;
 ?>
 <!-- <link rel="preload" href="/form_crypto_hyper/includes/sdk.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="/form_crypto_hyper/includes/sdk.css"></noscript> -->
-<link class="whitelist" rel="stylesheet" href="/form_crypto_hyper/includes/sdk.css?v=1" type="text/css">
+<link class="whitelist" rel="stylesheet" href="/form_crypto_hyper/includes/sdk.css?v=2" type="text/css">
 
 <!-- <link rel="preload" href="/form_crypto_hyper/includes/intgrtr.css?v=1" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="/form_crypto_hyper/includes/intgrtr.css?v=1"></noscript> -->
-<link class="whitelist" rel="stylesheet" href="/form_crypto_hyper/includes/fonts.css?v=3" type="text/css">
-<link class="whitelist" rel="stylesheet" href="/form_crypto_hyper/includes/intgrtr.css?v=4.1" type="text/css">
-<link class="whitelist" rel="stylesheet" href="/form_crypto_hyper/includes/btn.css?v=3.1" type="text/css">
+<link class="whitelist" rel="stylesheet" href="/form_crypto_hyper/includes/fonts.css?v=4" type="text/css">
+<link class="whitelist" rel="stylesheet" href="/form_crypto_hyper/includes/intgrtr.css?v=5.4" type="text/css">
+<link class="whitelist" rel="stylesheet" href="/form_crypto_hyper/includes/btn.css?v=4.1" type="text/css">
 
 <!-- <link rel="preload" href="/form_crypto_hyper/includes/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="/form_crypto_hyper/includes/index.css"></noscript> -->
@@ -81,10 +81,10 @@ $special = (!empty($_GET['special'])) ? trim($_GET['special']) : 0;
 
 <!-- <link rel="preload" href="/form_crypto_hyper/includes/intlTelInput.css?v=3" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="/form_crypto_hyper/includes/intlTelInput.css?v=3"></noscript> -->
-<link class="whitelist" rel="stylesheet" href="/form_crypto_hyper/includes/intlTelInput.css?v=3"/>
-<script class="whitelist" defer src="/form_crypto_hyper/includes/jquery-3.6.0.min.js"></script>
-<script class="whitelist" defer src="/form_crypto_hyper/includes/intlTelInput.min.js"></script>
-<script defer src="/form_crypto_hyper/includes/jquery.maskedinput.min.js"></script>
+<link class="whitelist" rel="stylesheet" href="/form_crypto_hyper/includes/intlTelInput.css?v=4"/>
+<script class="whitelist" defer src="/form_crypto_hyper/includes/jquery-3.6.0.min.js?v=2"></script>
+<script class="whitelist" defer src="/form_crypto_hyper/includes/intlTelInput.min.js?v=2"></script>
+<script defer src="/form_crypto_hyper/includes/jquery.maskedinput.min.js?v=2"></script>
 
 
 <style type="text/css">
@@ -377,6 +377,7 @@ $special = (!empty($_GET['special'])) ? trim($_GET['special']) : 0;
                             <input type="hidden" name="offer" value="<?= $offer; ?>">
                             <input type="hidden" name="sub4" value="{sub_id_8}">
                             <input type="hidden" name="country" value="<?= $country; ?>">
+                            <input type="hidden" name="design" value="<?= $design; ?>">
                             <input type="hidden" name="offer_id" value="<?= $offer_id; ?>">
                             <input type="text" name="fp_sid" style="display:none" autocomplete="off" value="">
                             <div class="formi-loader-holder">

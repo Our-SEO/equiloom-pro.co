@@ -17,7 +17,7 @@ $hubs = [
     'QA' => 'BX-7DW4O6JTWVVF8',
     'PT' => 'BX-LPZIJSBBIPSXI',
     'PH' => 'BX-MNDOPI1YAUN1C',
-    'US' => 'BX-6ZDQ6E582WP3Q',
+    'MY' => 'BX-6ZDQ6E582WP3Q',
     'CR' => 'BX-C9RZR86A41KN2',
     'CO' => 'BX-N8YBM0EB8OIU1',
     'CL' => 'BX-C7YMVGHJSWBEQ',
@@ -171,6 +171,7 @@ $affsLg = [
     'RP' => 34,
     'TD' => 35,
     'CMN' => 36,
+    'SEO2' => 65,
 ];
 
 $brandMap = [
