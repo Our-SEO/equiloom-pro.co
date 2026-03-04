@@ -1,33 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://equiloom-pro.co/en/</loc>
+    <loc>https://equiloom-pro.co/gb/</loc>
     <lastmod>2026-01-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://equiloom-pro.co/en/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://equiloom-pro.co/en/" />
-    <xhtml:link rel="alternate" hreflang="es_ES" href="https://equiloom-pro.co/es/" />
-    <xhtml:link rel="alternate" hreflang="fr_FR" href="https://equiloom-pro.co/fr/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://equiloom-pro.co/gb/" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://equiloom-pro.co/gb/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://equiloom-pro.co/es/" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://equiloom-pro.co/fr/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://equiloom-pro.co/br-pt/" />
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://equiloom-pro.co/co/" />
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://equiloom-pro.co/jp/" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://equiloom-pro.co/sa/" />
+    <xhtml:link rel="alternate" hreflang="ar-AE" href="https://equiloom-pro.co/ae/" />
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://equiloom-pro.co/ca-en/" />
+    <xhtml:link rel="alternate" hreflang="en-PH" href="https://equiloom-pro.co/ph/" />
+    <xhtml:link rel="alternate" hreflang="en-MY" href="https://equiloom-pro.co/my/" />
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://equiloom-pro.co/ch-de/" />
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://equiloom-pro.co/ch-fr/" />
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://equiloom-pro.co/no/" />
   </url>
   <url>
-    <loc>https://equiloom-pro.co/en/about</loc>
+    <loc>https://equiloom-pro.co/gb/about</loc>
     <lastmod>2026-01-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://equiloom-pro.co/en/about" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://equiloom-pro.co/en/about" />
-    <xhtml:link rel="alternate" hreflang="es_ES" href="https://equiloom-pro.co/es/about" />
-    <xhtml:link rel="alternate" hreflang="fr_FR" href="https://equiloom-pro.co/fr/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://equiloom-pro.co/gb/about" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://equiloom-pro.co/gb/about" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://equiloom-pro.co/es/about" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://equiloom-pro.co/fr/about" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://equiloom-pro.co/br-pt/about" />
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://equiloom-pro.co/co/about" />
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://equiloom-pro.co/jp/about" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://equiloom-pro.co/sa/about" />
+    <xhtml:link rel="alternate" hreflang="ar-AE" href="https://equiloom-pro.co/ae/about" />
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://equiloom-pro.co/ca-en/about" />
+    <xhtml:link rel="alternate" hreflang="en-PH" href="https://equiloom-pro.co/ph/about" />
+    <xhtml:link rel="alternate" hreflang="en-MY" href="https://equiloom-pro.co/my/about" />
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://equiloom-pro.co/ch-de/about" />
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://equiloom-pro.co/ch-fr/about" />
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://equiloom-pro.co/no/about" />
   </url>
   <url>
-    <loc>https://equiloom-pro.co/en/login</loc>
+    <loc>https://equiloom-pro.co/gb/login</loc>
     <lastmod>2026-01-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://equiloom-pro.co/en/login" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://equiloom-pro.co/en/login" />
-    <xhtml:link rel="alternate" hreflang="es_ES" href="https://equiloom-pro.co/es/login" />
-    <xhtml:link rel="alternate" hreflang="fr_FR" href="https://equiloom-pro.co/fr/login" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://equiloom-pro.co/gb/login" />
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://equiloom-pro.co/gb/login" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://equiloom-pro.co/es/login" />
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://equiloom-pro.co/fr/login" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://equiloom-pro.co/br-pt/login" />
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://equiloom-pro.co/co/login" />
+    <xhtml:link rel="alternate" hreflang="ja-JP" href="https://equiloom-pro.co/jp/login" />
+    <xhtml:link rel="alternate" hreflang="ar-SA" href="https://equiloom-pro.co/sa/login" />
+    <xhtml:link rel="alternate" hreflang="ar-AE" href="https://equiloom-pro.co/ae/login" />
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://equiloom-pro.co/ca-en/login" />
+    <xhtml:link rel="alternate" hreflang="en-PH" href="https://equiloom-pro.co/ph/login" />
+    <xhtml:link rel="alternate" hreflang="en-MY" href="https://equiloom-pro.co/my/login" />
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://equiloom-pro.co/ch-de/login" />
+    <xhtml:link rel="alternate" hreflang="fr-CH" href="https://equiloom-pro.co/ch-fr/login" />
+    <xhtml:link rel="alternate" hreflang="nb-NO" href="https://equiloom-pro.co/no/login" />
   </url>
 </urlset>
